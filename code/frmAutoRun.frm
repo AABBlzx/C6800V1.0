@@ -1,11 +1,10 @@
 VERSION 5.00
-Object = "{0ECD9B60-23AA-11D0-B351-00A0C9055D8E}#6.0#0"; "MSHFLXGD.OCX"
-Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "mswinsck.ocx"
-Object = "{648A5603-2C6E-101B-82B6-000000000014}#1.1#0"; "MSCOMM32.OCX"
 Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
+Object = "{248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0"; "MSWINSCK.OCX"
+Object = "{0ECD9B60-23AA-11D0-B351-00A0C9055D8E}#6.0#0"; "MSHFLXGD.OCX"
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Object = "{648A5603-2C6E-101B-82B6-000000000014}#1.1#0"; "MSCOMM32.OCX"
-Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.1#0"; "MSCOMCTL.OCX"
+Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Begin VB.Form frmAutoRun 
    ClientHeight    =   12720
    ClientLeft      =   -4770
@@ -1075,367 +1074,367 @@ Begin VB.Form frmAutoRun
       TabCaption(4)   =   "测试Bin"
       TabPicture(4)   =   "frmAutoRun.frx":5852
       Tab(4).ControlEnabled=   0   'False
-      Tab(4).Control(0)=   "lbBinSiteName2(15)"
-      Tab(4).Control(1)=   "lbStationBinStatus2(159)"
-      Tab(4).Control(2)=   "lbStationBinStatus2(158)"
-      Tab(4).Control(3)=   "lbStationBinStatus2(157)"
-      Tab(4).Control(4)=   "lbStationBinStatus2(156)"
-      Tab(4).Control(5)=   "lbStationBinStatus2(155)"
-      Tab(4).Control(6)=   "lbStationBinStatus2(154)"
-      Tab(4).Control(7)=   "lbStationBinStatus2(153)"
-      Tab(4).Control(8)=   "lbStationBinStatus2(152)"
-      Tab(4).Control(9)=   "lbStationBinStatus2(151)"
-      Tab(4).Control(10)=   "lbStationBinStatus2(150)"
-      Tab(4).Control(11)=   "lbBinSiteName2(14)"
-      Tab(4).Control(12)=   "lbStationBinStatus2(149)"
-      Tab(4).Control(13)=   "lbStationBinStatus2(148)"
-      Tab(4).Control(14)=   "lbStationBinStatus2(147)"
-      Tab(4).Control(15)=   "lbStationBinStatus2(146)"
-      Tab(4).Control(16)=   "lbStationBinStatus2(145)"
-      Tab(4).Control(17)=   "lbStationBinStatus2(144)"
-      Tab(4).Control(18)=   "lbStationBinStatus2(143)"
-      Tab(4).Control(19)=   "lbStationBinStatus2(142)"
-      Tab(4).Control(20)=   "lbStationBinStatus2(141)"
-      Tab(4).Control(21)=   "lbStationBinStatus2(140)"
-      Tab(4).Control(22)=   "lbBinSiteName2(13)"
-      Tab(4).Control(23)=   "lbStationBinStatus2(139)"
-      Tab(4).Control(24)=   "lbStationBinStatus2(138)"
-      Tab(4).Control(25)=   "lbStationBinStatus2(137)"
-      Tab(4).Control(26)=   "lbStationBinStatus2(136)"
-      Tab(4).Control(27)=   "lbStationBinStatus2(135)"
-      Tab(4).Control(28)=   "lbStationBinStatus2(134)"
-      Tab(4).Control(29)=   "lbStationBinStatus2(133)"
-      Tab(4).Control(30)=   "lbStationBinStatus2(132)"
-      Tab(4).Control(31)=   "lbStationBinStatus2(131)"
-      Tab(4).Control(32)=   "lbStationBinStatus2(130)"
-      Tab(4).Control(33)=   "lbBinSiteName2(12)"
-      Tab(4).Control(34)=   "lbStationBinStatus2(129)"
-      Tab(4).Control(35)=   "lbStationBinStatus2(128)"
-      Tab(4).Control(36)=   "lbStationBinStatus2(127)"
-      Tab(4).Control(37)=   "lbStationBinStatus2(126)"
-      Tab(4).Control(38)=   "lbStationBinStatus2(125)"
-      Tab(4).Control(39)=   "lbStationBinStatus2(124)"
-      Tab(4).Control(40)=   "lbStationBinStatus2(123)"
-      Tab(4).Control(41)=   "lbStationBinStatus2(122)"
-      Tab(4).Control(42)=   "lbStationBinStatus2(121)"
-      Tab(4).Control(43)=   "lbStationBinStatus2(120)"
-      Tab(4).Control(44)=   "lbBinSiteName2(11)"
-      Tab(4).Control(45)=   "lbStationBinStatus2(119)"
-      Tab(4).Control(46)=   "lbStationBinStatus2(118)"
-      Tab(4).Control(47)=   "lbStationBinStatus2(117)"
-      Tab(4).Control(48)=   "lbStationBinStatus2(116)"
-      Tab(4).Control(49)=   "lbStationBinStatus2(115)"
-      Tab(4).Control(50)=   "lbStationBinStatus2(114)"
-      Tab(4).Control(51)=   "lbStationBinStatus2(113)"
-      Tab(4).Control(52)=   "lbStationBinStatus2(112)"
-      Tab(4).Control(53)=   "lbStationBinStatus2(111)"
-      Tab(4).Control(54)=   "lbStationBinStatus2(110)"
-      Tab(4).Control(55)=   "lbBinSiteName2(10)"
-      Tab(4).Control(56)=   "lbStationBinStatus2(109)"
-      Tab(4).Control(57)=   "lbStationBinStatus2(108)"
-      Tab(4).Control(58)=   "lbStationBinStatus2(107)"
-      Tab(4).Control(59)=   "lbStationBinStatus2(106)"
-      Tab(4).Control(60)=   "lbStationBinStatus2(105)"
-      Tab(4).Control(61)=   "lbStationBinStatus2(104)"
-      Tab(4).Control(62)=   "lbStationBinStatus2(103)"
-      Tab(4).Control(63)=   "lbStationBinStatus2(102)"
-      Tab(4).Control(64)=   "lbStationBinStatus2(101)"
-      Tab(4).Control(65)=   "lbStationBinStatus2(100)"
-      Tab(4).Control(66)=   "lbBinSiteName2(9)"
-      Tab(4).Control(67)=   "lbStationBinStatus2(99)"
-      Tab(4).Control(68)=   "lbStationBinStatus2(98)"
-      Tab(4).Control(69)=   "lbStationBinStatus2(97)"
-      Tab(4).Control(70)=   "lbStationBinStatus2(96)"
-      Tab(4).Control(71)=   "lbStationBinStatus2(95)"
-      Tab(4).Control(72)=   "lbStationBinStatus2(94)"
-      Tab(4).Control(73)=   "lbStationBinStatus2(93)"
-      Tab(4).Control(74)=   "lbStationBinStatus2(92)"
-      Tab(4).Control(75)=   "lbStationBinStatus2(91)"
-      Tab(4).Control(76)=   "lbStationBinStatus2(90)"
-      Tab(4).Control(77)=   "lbBinSiteName2(8)"
-      Tab(4).Control(78)=   "lbStationBinStatus2(89)"
-      Tab(4).Control(79)=   "lbStationBinStatus2(88)"
-      Tab(4).Control(80)=   "lbStationBinStatus2(87)"
-      Tab(4).Control(81)=   "lbStationBinStatus2(86)"
-      Tab(4).Control(82)=   "lbStationBinStatus2(85)"
-      Tab(4).Control(83)=   "lbStationBinStatus2(84)"
-      Tab(4).Control(84)=   "lbStationBinStatus2(83)"
-      Tab(4).Control(85)=   "lbStationBinStatus2(82)"
-      Tab(4).Control(86)=   "lbStationBinStatus2(81)"
-      Tab(4).Control(87)=   "lbStationBinStatus2(80)"
-      Tab(4).Control(88)=   "lbBinSiteName2(7)"
-      Tab(4).Control(89)=   "lbStationBinStatus2(79)"
-      Tab(4).Control(90)=   "lbStationBinStatus2(78)"
-      Tab(4).Control(91)=   "lbStationBinStatus2(77)"
-      Tab(4).Control(92)=   "lbStationBinStatus2(76)"
-      Tab(4).Control(93)=   "lbStationBinStatus2(75)"
-      Tab(4).Control(94)=   "lbStationBinStatus2(74)"
-      Tab(4).Control(95)=   "lbStationBinStatus2(73)"
-      Tab(4).Control(96)=   "lbStationBinStatus2(72)"
-      Tab(4).Control(97)=   "lbStationBinStatus2(71)"
-      Tab(4).Control(98)=   "lbStationBinStatus2(70)"
-      Tab(4).Control(99)=   "lbBinSiteName2(6)"
-      Tab(4).Control(100)=   "lbStationBinStatus2(69)"
-      Tab(4).Control(101)=   "lbStationBinStatus2(68)"
-      Tab(4).Control(102)=   "lbStationBinStatus2(67)"
-      Tab(4).Control(103)=   "lbStationBinStatus2(66)"
-      Tab(4).Control(104)=   "lbStationBinStatus2(65)"
-      Tab(4).Control(105)=   "lbStationBinStatus2(64)"
-      Tab(4).Control(106)=   "lbStationBinStatus2(63)"
-      Tab(4).Control(107)=   "lbStationBinStatus2(62)"
-      Tab(4).Control(108)=   "lbStationBinStatus2(61)"
-      Tab(4).Control(109)=   "lbStationBinStatus2(60)"
-      Tab(4).Control(110)=   "lbBinSiteName2(5)"
-      Tab(4).Control(111)=   "lbStationBinStatus2(59)"
-      Tab(4).Control(112)=   "lbStationBinStatus2(58)"
-      Tab(4).Control(113)=   "lbStationBinStatus2(57)"
-      Tab(4).Control(114)=   "lbStationBinStatus2(56)"
-      Tab(4).Control(115)=   "lbStationBinStatus2(55)"
-      Tab(4).Control(116)=   "lbStationBinStatus2(54)"
-      Tab(4).Control(117)=   "lbStationBinStatus2(53)"
-      Tab(4).Control(118)=   "lbStationBinStatus2(52)"
-      Tab(4).Control(119)=   "lbStationBinStatus2(51)"
-      Tab(4).Control(120)=   "lbStationBinStatus2(50)"
-      Tab(4).Control(121)=   "lbBinSiteName2(4)"
-      Tab(4).Control(122)=   "lbStationBinStatus2(49)"
-      Tab(4).Control(123)=   "lbStationBinStatus2(48)"
-      Tab(4).Control(124)=   "lbStationBinStatus2(47)"
-      Tab(4).Control(125)=   "lbStationBinStatus2(46)"
-      Tab(4).Control(126)=   "lbStationBinStatus2(45)"
-      Tab(4).Control(127)=   "lbStationBinStatus2(44)"
-      Tab(4).Control(128)=   "lbStationBinStatus2(43)"
-      Tab(4).Control(129)=   "lbStationBinStatus2(42)"
-      Tab(4).Control(130)=   "lbStationBinStatus2(41)"
-      Tab(4).Control(131)=   "lbStationBinStatus2(40)"
-      Tab(4).Control(132)=   "lbBinSiteName2(3)"
-      Tab(4).Control(133)=   "lbStationBinStatus2(39)"
-      Tab(4).Control(134)=   "lbStationBinStatus2(38)"
-      Tab(4).Control(135)=   "lbStationBinStatus2(37)"
-      Tab(4).Control(136)=   "lbStationBinStatus2(36)"
-      Tab(4).Control(137)=   "lbStationBinStatus2(35)"
-      Tab(4).Control(138)=   "lbStationBinStatus2(34)"
-      Tab(4).Control(139)=   "lbStationBinStatus2(33)"
-      Tab(4).Control(140)=   "lbStationBinStatus2(32)"
-      Tab(4).Control(141)=   "lbStationBinStatus2(31)"
-      Tab(4).Control(142)=   "lbStationBinStatus2(30)"
-      Tab(4).Control(143)=   "lbBinSiteName2(2)"
-      Tab(4).Control(144)=   "lbStationBinStatus2(29)"
-      Tab(4).Control(145)=   "lbStationBinStatus2(28)"
-      Tab(4).Control(146)=   "lbStationBinStatus2(27)"
-      Tab(4).Control(147)=   "lbStationBinStatus2(26)"
-      Tab(4).Control(148)=   "lbStationBinStatus2(25)"
-      Tab(4).Control(149)=   "lbStationBinStatus2(24)"
-      Tab(4).Control(150)=   "lbStationBinStatus2(23)"
-      Tab(4).Control(151)=   "lbStationBinStatus2(22)"
-      Tab(4).Control(152)=   "lbStationBinStatus2(21)"
-      Tab(4).Control(153)=   "lbStationBinStatus2(20)"
-      Tab(4).Control(154)=   "lbBinSiteName2(1)"
-      Tab(4).Control(155)=   "lbStationBinStatus2(19)"
-      Tab(4).Control(156)=   "lbStationBinStatus2(18)"
-      Tab(4).Control(157)=   "lbStationBinStatus2(17)"
-      Tab(4).Control(158)=   "lbStationBinStatus2(16)"
-      Tab(4).Control(159)=   "lbStationBinStatus2(15)"
-      Tab(4).Control(160)=   "lbStationBinStatus2(14)"
-      Tab(4).Control(161)=   "lbStationBinStatus2(13)"
-      Tab(4).Control(162)=   "lbStationBinStatus2(12)"
-      Tab(4).Control(163)=   "lbStationBinStatus2(11)"
-      Tab(4).Control(164)=   "lbStationBinStatus2(10)"
-      Tab(4).Control(165)=   "lbStationBinStatus2(9)"
-      Tab(4).Control(166)=   "lbStationBinStatus2(8)"
-      Tab(4).Control(167)=   "lbStationBinStatus2(7)"
-      Tab(4).Control(168)=   "lbStationBinStatus2(6)"
-      Tab(4).Control(169)=   "lbStationBinStatus2(5)"
-      Tab(4).Control(170)=   "lbStationBinStatus2(4)"
-      Tab(4).Control(171)=   "lbStationBinStatus2(3)"
-      Tab(4).Control(172)=   "lbStationBinStatus2(2)"
-      Tab(4).Control(173)=   "lbStationBinStatus2(1)"
-      Tab(4).Control(174)=   "lbStationBinStatus2(0)"
-      Tab(4).Control(175)=   "lbBinSiteName2(0)"
-      Tab(4).Control(176)=   "lbStationBinStatus(159)"
-      Tab(4).Control(177)=   "lbStationBinStatus(158)"
-      Tab(4).Control(178)=   "lbStationBinStatus(157)"
-      Tab(4).Control(179)=   "lbStationBinStatus(156)"
-      Tab(4).Control(180)=   "lbStationBinStatus(155)"
-      Tab(4).Control(181)=   "lbStationBinStatus(154)"
-      Tab(4).Control(182)=   "lbStationBinStatus(153)"
-      Tab(4).Control(183)=   "lbStationBinStatus(152)"
-      Tab(4).Control(184)=   "lbStationBinStatus(151)"
-      Tab(4).Control(185)=   "lbStationBinStatus(150)"
-      Tab(4).Control(186)=   "lbBinSiteName(15)"
-      Tab(4).Control(187)=   "lbStationBinStatus(149)"
-      Tab(4).Control(188)=   "lbStationBinStatus(148)"
-      Tab(4).Control(189)=   "lbStationBinStatus(147)"
-      Tab(4).Control(190)=   "lbStationBinStatus(146)"
-      Tab(4).Control(191)=   "lbStationBinStatus(145)"
-      Tab(4).Control(192)=   "lbStationBinStatus(144)"
-      Tab(4).Control(193)=   "lbStationBinStatus(143)"
-      Tab(4).Control(194)=   "lbStationBinStatus(142)"
-      Tab(4).Control(195)=   "lbStationBinStatus(141)"
-      Tab(4).Control(196)=   "lbStationBinStatus(140)"
-      Tab(4).Control(197)=   "lbBinSiteName(14)"
-      Tab(4).Control(198)=   "lbStationBinStatus(139)"
-      Tab(4).Control(199)=   "lbStationBinStatus(138)"
-      Tab(4).Control(200)=   "lbStationBinStatus(137)"
-      Tab(4).Control(201)=   "lbStationBinStatus(136)"
-      Tab(4).Control(202)=   "lbStationBinStatus(135)"
-      Tab(4).Control(203)=   "lbStationBinStatus(134)"
-      Tab(4).Control(204)=   "lbStationBinStatus(133)"
-      Tab(4).Control(205)=   "lbStationBinStatus(132)"
-      Tab(4).Control(206)=   "lbStationBinStatus(131)"
-      Tab(4).Control(207)=   "lbStationBinStatus(130)"
-      Tab(4).Control(208)=   "lbBinSiteName(13)"
-      Tab(4).Control(209)=   "lbStationBinStatus(129)"
-      Tab(4).Control(210)=   "lbStationBinStatus(128)"
-      Tab(4).Control(211)=   "lbStationBinStatus(127)"
-      Tab(4).Control(212)=   "lbStationBinStatus(126)"
-      Tab(4).Control(213)=   "lbStationBinStatus(125)"
-      Tab(4).Control(214)=   "lbStationBinStatus(124)"
-      Tab(4).Control(215)=   "lbStationBinStatus(123)"
-      Tab(4).Control(216)=   "lbStationBinStatus(122)"
-      Tab(4).Control(217)=   "lbStationBinStatus(121)"
-      Tab(4).Control(218)=   "lbStationBinStatus(120)"
-      Tab(4).Control(219)=   "lbBinSiteName(12)"
-      Tab(4).Control(220)=   "lbStationBinStatus(119)"
-      Tab(4).Control(221)=   "lbStationBinStatus(118)"
-      Tab(4).Control(222)=   "lbStationBinStatus(117)"
-      Tab(4).Control(223)=   "lbStationBinStatus(116)"
-      Tab(4).Control(224)=   "lbStationBinStatus(115)"
-      Tab(4).Control(225)=   "lbStationBinStatus(114)"
-      Tab(4).Control(226)=   "lbStationBinStatus(113)"
-      Tab(4).Control(227)=   "lbStationBinStatus(112)"
-      Tab(4).Control(228)=   "lbStationBinStatus(111)"
-      Tab(4).Control(229)=   "lbStationBinStatus(110)"
-      Tab(4).Control(230)=   "lbBinSiteName(11)"
-      Tab(4).Control(231)=   "lbStationBinStatus(109)"
-      Tab(4).Control(232)=   "lbStationBinStatus(108)"
-      Tab(4).Control(233)=   "lbStationBinStatus(107)"
-      Tab(4).Control(234)=   "lbStationBinStatus(106)"
-      Tab(4).Control(235)=   "lbStationBinStatus(105)"
-      Tab(4).Control(236)=   "lbStationBinStatus(104)"
-      Tab(4).Control(237)=   "lbStationBinStatus(103)"
-      Tab(4).Control(238)=   "lbStationBinStatus(102)"
-      Tab(4).Control(239)=   "lbStationBinStatus(101)"
-      Tab(4).Control(240)=   "lbStationBinStatus(100)"
-      Tab(4).Control(241)=   "lbBinSiteName(10)"
-      Tab(4).Control(242)=   "lbStationBinStatus(99)"
-      Tab(4).Control(243)=   "lbStationBinStatus(98)"
-      Tab(4).Control(244)=   "lbStationBinStatus(97)"
-      Tab(4).Control(245)=   "lbStationBinStatus(96)"
-      Tab(4).Control(246)=   "lbStationBinStatus(95)"
-      Tab(4).Control(247)=   "lbStationBinStatus(94)"
-      Tab(4).Control(248)=   "lbStationBinStatus(93)"
-      Tab(4).Control(249)=   "lbStationBinStatus(92)"
-      Tab(4).Control(250)=   "lbStationBinStatus(91)"
-      Tab(4).Control(251)=   "lbStationBinStatus(90)"
-      Tab(4).Control(252)=   "lbBinSiteName(9)"
-      Tab(4).Control(253)=   "lbStationBinStatus(89)"
-      Tab(4).Control(254)=   "lbStationBinStatus(88)"
-      Tab(4).Control(255)=   "lbStationBinStatus(87)"
-      Tab(4).Control(256)=   "lbStationBinStatus(86)"
-      Tab(4).Control(257)=   "lbStationBinStatus(85)"
-      Tab(4).Control(258)=   "lbStationBinStatus(84)"
-      Tab(4).Control(259)=   "lbStationBinStatus(83)"
-      Tab(4).Control(260)=   "lbStationBinStatus(82)"
-      Tab(4).Control(261)=   "lbStationBinStatus(81)"
-      Tab(4).Control(262)=   "lbStationBinStatus(80)"
-      Tab(4).Control(263)=   "lbBinSiteName(8)"
-      Tab(4).Control(264)=   "lbStationBinStatus(79)"
-      Tab(4).Control(265)=   "lbStationBinStatus(78)"
-      Tab(4).Control(266)=   "lbStationBinStatus(77)"
-      Tab(4).Control(267)=   "lbStationBinStatus(76)"
-      Tab(4).Control(268)=   "lbStationBinStatus(75)"
-      Tab(4).Control(269)=   "lbStationBinStatus(74)"
-      Tab(4).Control(270)=   "lbStationBinStatus(73)"
-      Tab(4).Control(271)=   "lbStationBinStatus(72)"
-      Tab(4).Control(272)=   "lbStationBinStatus(71)"
-      Tab(4).Control(273)=   "lbStationBinStatus(70)"
-      Tab(4).Control(274)=   "lbBinSiteName(7)"
-      Tab(4).Control(275)=   "lbStationBinStatus(69)"
-      Tab(4).Control(276)=   "lbStationBinStatus(68)"
-      Tab(4).Control(277)=   "lbStationBinStatus(67)"
-      Tab(4).Control(278)=   "lbStationBinStatus(66)"
-      Tab(4).Control(279)=   "lbStationBinStatus(65)"
-      Tab(4).Control(280)=   "lbStationBinStatus(64)"
-      Tab(4).Control(281)=   "lbStationBinStatus(63)"
-      Tab(4).Control(282)=   "lbStationBinStatus(62)"
-      Tab(4).Control(283)=   "lbStationBinStatus(61)"
-      Tab(4).Control(284)=   "lbStationBinStatus(60)"
-      Tab(4).Control(285)=   "lbBinSiteName(6)"
-      Tab(4).Control(286)=   "lbStationBinStatus(59)"
-      Tab(4).Control(287)=   "lbStationBinStatus(58)"
-      Tab(4).Control(288)=   "lbStationBinStatus(57)"
-      Tab(4).Control(289)=   "lbStationBinStatus(56)"
-      Tab(4).Control(290)=   "lbStationBinStatus(55)"
-      Tab(4).Control(291)=   "lbStationBinStatus(54)"
-      Tab(4).Control(292)=   "lbStationBinStatus(53)"
-      Tab(4).Control(293)=   "lbStationBinStatus(52)"
-      Tab(4).Control(294)=   "lbStationBinStatus(51)"
-      Tab(4).Control(295)=   "lbStationBinStatus(50)"
-      Tab(4).Control(296)=   "lbBinSiteName(5)"
-      Tab(4).Control(297)=   "lbStationBinStatus(49)"
-      Tab(4).Control(298)=   "lbStationBinStatus(48)"
-      Tab(4).Control(299)=   "lbStationBinStatus(47)"
-      Tab(4).Control(300)=   "lbStationBinStatus(46)"
-      Tab(4).Control(301)=   "lbStationBinStatus(45)"
-      Tab(4).Control(302)=   "lbStationBinStatus(44)"
-      Tab(4).Control(303)=   "lbStationBinStatus(43)"
-      Tab(4).Control(304)=   "lbStationBinStatus(42)"
-      Tab(4).Control(305)=   "lbStationBinStatus(41)"
-      Tab(4).Control(306)=   "lbStationBinStatus(40)"
-      Tab(4).Control(307)=   "lbBinSiteName(4)"
-      Tab(4).Control(308)=   "lbStationBinStatus(39)"
-      Tab(4).Control(309)=   "lbStationBinStatus(38)"
-      Tab(4).Control(310)=   "lbStationBinStatus(37)"
-      Tab(4).Control(311)=   "lbStationBinStatus(36)"
-      Tab(4).Control(312)=   "lbStationBinStatus(35)"
-      Tab(4).Control(313)=   "lbStationBinStatus(34)"
-      Tab(4).Control(314)=   "lbStationBinStatus(33)"
-      Tab(4).Control(315)=   "lbStationBinStatus(32)"
-      Tab(4).Control(316)=   "lbStationBinStatus(31)"
-      Tab(4).Control(317)=   "lbStationBinStatus(30)"
-      Tab(4).Control(318)=   "lbBinSiteName(3)"
-      Tab(4).Control(319)=   "lbStationBinStatus(29)"
-      Tab(4).Control(320)=   "lbStationBinStatus(28)"
-      Tab(4).Control(321)=   "lbStationBinStatus(27)"
-      Tab(4).Control(322)=   "lbStationBinStatus(26)"
-      Tab(4).Control(323)=   "lbStationBinStatus(25)"
-      Tab(4).Control(324)=   "lbStationBinStatus(24)"
-      Tab(4).Control(325)=   "lbStationBinStatus(23)"
-      Tab(4).Control(326)=   "lbStationBinStatus(22)"
-      Tab(4).Control(327)=   "lbStationBinStatus(21)"
-      Tab(4).Control(328)=   "lbStationBinStatus(20)"
-      Tab(4).Control(329)=   "lbBinSiteName(2)"
-      Tab(4).Control(330)=   "lbStationBinStatus(19)"
-      Tab(4).Control(331)=   "lbStationBinStatus(18)"
-      Tab(4).Control(332)=   "lbStationBinStatus(17)"
-      Tab(4).Control(333)=   "lbStationBinStatus(16)"
-      Tab(4).Control(334)=   "lbBinSiteName(1)"
-      Tab(4).Control(335)=   "lbStationBinStatus(15)"
-      Tab(4).Control(336)=   "lbStationBinStatus(14)"
-      Tab(4).Control(337)=   "lbStationBinStatus(13)"
-      Tab(4).Control(338)=   "lbStationBinStatus(12)"
-      Tab(4).Control(339)=   "lbStationBinStatus(11)"
-      Tab(4).Control(340)=   "lbStationBinStatus(10)"
-      Tab(4).Control(341)=   "lbStationBinStatus(9)"
-      Tab(4).Control(342)=   "lbStationBinStatus(8)"
-      Tab(4).Control(343)=   "lbStationBinStatus(7)"
-      Tab(4).Control(344)=   "lbStationBinStatus(6)"
-      Tab(4).Control(345)=   "lbStationBinStatus(5)"
-      Tab(4).Control(346)=   "lbStationBinStatus(4)"
-      Tab(4).Control(347)=   "lbStationBinStatus(3)"
-      Tab(4).Control(348)=   "lbStationBinStatus(2)"
-      Tab(4).Control(349)=   "lbStationBinStatus(1)"
-      Tab(4).Control(350)=   "lbStationBinStatus(0)"
-      Tab(4).Control(351)=   "lbBinSiteName(0)"
-      Tab(4).Control(352)=   "Label6"
-      Tab(4).Control(353)=   "Label31"
+      Tab(4).Control(0)=   "Label31"
+      Tab(4).Control(1)=   "Label6"
+      Tab(4).Control(2)=   "lbBinSiteName(0)"
+      Tab(4).Control(3)=   "lbStationBinStatus(0)"
+      Tab(4).Control(4)=   "lbStationBinStatus(1)"
+      Tab(4).Control(5)=   "lbStationBinStatus(2)"
+      Tab(4).Control(6)=   "lbStationBinStatus(3)"
+      Tab(4).Control(7)=   "lbStationBinStatus(4)"
+      Tab(4).Control(8)=   "lbStationBinStatus(5)"
+      Tab(4).Control(9)=   "lbStationBinStatus(6)"
+      Tab(4).Control(10)=   "lbStationBinStatus(7)"
+      Tab(4).Control(11)=   "lbStationBinStatus(8)"
+      Tab(4).Control(12)=   "lbStationBinStatus(9)"
+      Tab(4).Control(13)=   "lbStationBinStatus(10)"
+      Tab(4).Control(14)=   "lbStationBinStatus(11)"
+      Tab(4).Control(15)=   "lbStationBinStatus(12)"
+      Tab(4).Control(16)=   "lbStationBinStatus(13)"
+      Tab(4).Control(17)=   "lbStationBinStatus(14)"
+      Tab(4).Control(18)=   "lbStationBinStatus(15)"
+      Tab(4).Control(19)=   "lbBinSiteName(1)"
+      Tab(4).Control(20)=   "lbStationBinStatus(16)"
+      Tab(4).Control(21)=   "lbStationBinStatus(17)"
+      Tab(4).Control(22)=   "lbStationBinStatus(18)"
+      Tab(4).Control(23)=   "lbStationBinStatus(19)"
+      Tab(4).Control(24)=   "lbBinSiteName(2)"
+      Tab(4).Control(25)=   "lbStationBinStatus(20)"
+      Tab(4).Control(26)=   "lbStationBinStatus(21)"
+      Tab(4).Control(27)=   "lbStationBinStatus(22)"
+      Tab(4).Control(28)=   "lbStationBinStatus(23)"
+      Tab(4).Control(29)=   "lbStationBinStatus(24)"
+      Tab(4).Control(30)=   "lbStationBinStatus(25)"
+      Tab(4).Control(31)=   "lbStationBinStatus(26)"
+      Tab(4).Control(32)=   "lbStationBinStatus(27)"
+      Tab(4).Control(33)=   "lbStationBinStatus(28)"
+      Tab(4).Control(34)=   "lbStationBinStatus(29)"
+      Tab(4).Control(35)=   "lbBinSiteName(3)"
+      Tab(4).Control(36)=   "lbStationBinStatus(30)"
+      Tab(4).Control(37)=   "lbStationBinStatus(31)"
+      Tab(4).Control(38)=   "lbStationBinStatus(32)"
+      Tab(4).Control(39)=   "lbStationBinStatus(33)"
+      Tab(4).Control(40)=   "lbStationBinStatus(34)"
+      Tab(4).Control(41)=   "lbStationBinStatus(35)"
+      Tab(4).Control(42)=   "lbStationBinStatus(36)"
+      Tab(4).Control(43)=   "lbStationBinStatus(37)"
+      Tab(4).Control(44)=   "lbStationBinStatus(38)"
+      Tab(4).Control(45)=   "lbStationBinStatus(39)"
+      Tab(4).Control(46)=   "lbBinSiteName(4)"
+      Tab(4).Control(47)=   "lbStationBinStatus(40)"
+      Tab(4).Control(48)=   "lbStationBinStatus(41)"
+      Tab(4).Control(49)=   "lbStationBinStatus(42)"
+      Tab(4).Control(50)=   "lbStationBinStatus(43)"
+      Tab(4).Control(51)=   "lbStationBinStatus(44)"
+      Tab(4).Control(52)=   "lbStationBinStatus(45)"
+      Tab(4).Control(53)=   "lbStationBinStatus(46)"
+      Tab(4).Control(54)=   "lbStationBinStatus(47)"
+      Tab(4).Control(55)=   "lbStationBinStatus(48)"
+      Tab(4).Control(56)=   "lbStationBinStatus(49)"
+      Tab(4).Control(57)=   "lbBinSiteName(5)"
+      Tab(4).Control(58)=   "lbStationBinStatus(50)"
+      Tab(4).Control(59)=   "lbStationBinStatus(51)"
+      Tab(4).Control(60)=   "lbStationBinStatus(52)"
+      Tab(4).Control(61)=   "lbStationBinStatus(53)"
+      Tab(4).Control(62)=   "lbStationBinStatus(54)"
+      Tab(4).Control(63)=   "lbStationBinStatus(55)"
+      Tab(4).Control(64)=   "lbStationBinStatus(56)"
+      Tab(4).Control(65)=   "lbStationBinStatus(57)"
+      Tab(4).Control(66)=   "lbStationBinStatus(58)"
+      Tab(4).Control(67)=   "lbStationBinStatus(59)"
+      Tab(4).Control(68)=   "lbBinSiteName(6)"
+      Tab(4).Control(69)=   "lbStationBinStatus(60)"
+      Tab(4).Control(70)=   "lbStationBinStatus(61)"
+      Tab(4).Control(71)=   "lbStationBinStatus(62)"
+      Tab(4).Control(72)=   "lbStationBinStatus(63)"
+      Tab(4).Control(73)=   "lbStationBinStatus(64)"
+      Tab(4).Control(74)=   "lbStationBinStatus(65)"
+      Tab(4).Control(75)=   "lbStationBinStatus(66)"
+      Tab(4).Control(76)=   "lbStationBinStatus(67)"
+      Tab(4).Control(77)=   "lbStationBinStatus(68)"
+      Tab(4).Control(78)=   "lbStationBinStatus(69)"
+      Tab(4).Control(79)=   "lbBinSiteName(7)"
+      Tab(4).Control(80)=   "lbStationBinStatus(70)"
+      Tab(4).Control(81)=   "lbStationBinStatus(71)"
+      Tab(4).Control(82)=   "lbStationBinStatus(72)"
+      Tab(4).Control(83)=   "lbStationBinStatus(73)"
+      Tab(4).Control(84)=   "lbStationBinStatus(74)"
+      Tab(4).Control(85)=   "lbStationBinStatus(75)"
+      Tab(4).Control(86)=   "lbStationBinStatus(76)"
+      Tab(4).Control(87)=   "lbStationBinStatus(77)"
+      Tab(4).Control(88)=   "lbStationBinStatus(78)"
+      Tab(4).Control(89)=   "lbStationBinStatus(79)"
+      Tab(4).Control(90)=   "lbBinSiteName(8)"
+      Tab(4).Control(91)=   "lbStationBinStatus(80)"
+      Tab(4).Control(92)=   "lbStationBinStatus(81)"
+      Tab(4).Control(93)=   "lbStationBinStatus(82)"
+      Tab(4).Control(94)=   "lbStationBinStatus(83)"
+      Tab(4).Control(95)=   "lbStationBinStatus(84)"
+      Tab(4).Control(96)=   "lbStationBinStatus(85)"
+      Tab(4).Control(97)=   "lbStationBinStatus(86)"
+      Tab(4).Control(98)=   "lbStationBinStatus(87)"
+      Tab(4).Control(99)=   "lbStationBinStatus(88)"
+      Tab(4).Control(100)=   "lbStationBinStatus(89)"
+      Tab(4).Control(101)=   "lbBinSiteName(9)"
+      Tab(4).Control(102)=   "lbStationBinStatus(90)"
+      Tab(4).Control(103)=   "lbStationBinStatus(91)"
+      Tab(4).Control(104)=   "lbStationBinStatus(92)"
+      Tab(4).Control(105)=   "lbStationBinStatus(93)"
+      Tab(4).Control(106)=   "lbStationBinStatus(94)"
+      Tab(4).Control(107)=   "lbStationBinStatus(95)"
+      Tab(4).Control(108)=   "lbStationBinStatus(96)"
+      Tab(4).Control(109)=   "lbStationBinStatus(97)"
+      Tab(4).Control(110)=   "lbStationBinStatus(98)"
+      Tab(4).Control(111)=   "lbStationBinStatus(99)"
+      Tab(4).Control(112)=   "lbBinSiteName(10)"
+      Tab(4).Control(113)=   "lbStationBinStatus(100)"
+      Tab(4).Control(114)=   "lbStationBinStatus(101)"
+      Tab(4).Control(115)=   "lbStationBinStatus(102)"
+      Tab(4).Control(116)=   "lbStationBinStatus(103)"
+      Tab(4).Control(117)=   "lbStationBinStatus(104)"
+      Tab(4).Control(118)=   "lbStationBinStatus(105)"
+      Tab(4).Control(119)=   "lbStationBinStatus(106)"
+      Tab(4).Control(120)=   "lbStationBinStatus(107)"
+      Tab(4).Control(121)=   "lbStationBinStatus(108)"
+      Tab(4).Control(122)=   "lbStationBinStatus(109)"
+      Tab(4).Control(123)=   "lbBinSiteName(11)"
+      Tab(4).Control(124)=   "lbStationBinStatus(110)"
+      Tab(4).Control(125)=   "lbStationBinStatus(111)"
+      Tab(4).Control(126)=   "lbStationBinStatus(112)"
+      Tab(4).Control(127)=   "lbStationBinStatus(113)"
+      Tab(4).Control(128)=   "lbStationBinStatus(114)"
+      Tab(4).Control(129)=   "lbStationBinStatus(115)"
+      Tab(4).Control(130)=   "lbStationBinStatus(116)"
+      Tab(4).Control(131)=   "lbStationBinStatus(117)"
+      Tab(4).Control(132)=   "lbStationBinStatus(118)"
+      Tab(4).Control(133)=   "lbStationBinStatus(119)"
+      Tab(4).Control(134)=   "lbBinSiteName(12)"
+      Tab(4).Control(135)=   "lbStationBinStatus(120)"
+      Tab(4).Control(136)=   "lbStationBinStatus(121)"
+      Tab(4).Control(137)=   "lbStationBinStatus(122)"
+      Tab(4).Control(138)=   "lbStationBinStatus(123)"
+      Tab(4).Control(139)=   "lbStationBinStatus(124)"
+      Tab(4).Control(140)=   "lbStationBinStatus(125)"
+      Tab(4).Control(141)=   "lbStationBinStatus(126)"
+      Tab(4).Control(142)=   "lbStationBinStatus(127)"
+      Tab(4).Control(143)=   "lbStationBinStatus(128)"
+      Tab(4).Control(144)=   "lbStationBinStatus(129)"
+      Tab(4).Control(145)=   "lbBinSiteName(13)"
+      Tab(4).Control(146)=   "lbStationBinStatus(130)"
+      Tab(4).Control(147)=   "lbStationBinStatus(131)"
+      Tab(4).Control(148)=   "lbStationBinStatus(132)"
+      Tab(4).Control(149)=   "lbStationBinStatus(133)"
+      Tab(4).Control(150)=   "lbStationBinStatus(134)"
+      Tab(4).Control(151)=   "lbStationBinStatus(135)"
+      Tab(4).Control(152)=   "lbStationBinStatus(136)"
+      Tab(4).Control(153)=   "lbStationBinStatus(137)"
+      Tab(4).Control(154)=   "lbStationBinStatus(138)"
+      Tab(4).Control(155)=   "lbStationBinStatus(139)"
+      Tab(4).Control(156)=   "lbBinSiteName(14)"
+      Tab(4).Control(157)=   "lbStationBinStatus(140)"
+      Tab(4).Control(158)=   "lbStationBinStatus(141)"
+      Tab(4).Control(159)=   "lbStationBinStatus(142)"
+      Tab(4).Control(160)=   "lbStationBinStatus(143)"
+      Tab(4).Control(161)=   "lbStationBinStatus(144)"
+      Tab(4).Control(162)=   "lbStationBinStatus(145)"
+      Tab(4).Control(163)=   "lbStationBinStatus(146)"
+      Tab(4).Control(164)=   "lbStationBinStatus(147)"
+      Tab(4).Control(165)=   "lbStationBinStatus(148)"
+      Tab(4).Control(166)=   "lbStationBinStatus(149)"
+      Tab(4).Control(167)=   "lbBinSiteName(15)"
+      Tab(4).Control(168)=   "lbStationBinStatus(150)"
+      Tab(4).Control(169)=   "lbStationBinStatus(151)"
+      Tab(4).Control(170)=   "lbStationBinStatus(152)"
+      Tab(4).Control(171)=   "lbStationBinStatus(153)"
+      Tab(4).Control(172)=   "lbStationBinStatus(154)"
+      Tab(4).Control(173)=   "lbStationBinStatus(155)"
+      Tab(4).Control(174)=   "lbStationBinStatus(156)"
+      Tab(4).Control(175)=   "lbStationBinStatus(157)"
+      Tab(4).Control(176)=   "lbStationBinStatus(158)"
+      Tab(4).Control(177)=   "lbStationBinStatus(159)"
+      Tab(4).Control(178)=   "lbBinSiteName2(0)"
+      Tab(4).Control(179)=   "lbStationBinStatus2(0)"
+      Tab(4).Control(180)=   "lbStationBinStatus2(1)"
+      Tab(4).Control(181)=   "lbStationBinStatus2(2)"
+      Tab(4).Control(182)=   "lbStationBinStatus2(3)"
+      Tab(4).Control(183)=   "lbStationBinStatus2(4)"
+      Tab(4).Control(184)=   "lbStationBinStatus2(5)"
+      Tab(4).Control(185)=   "lbStationBinStatus2(6)"
+      Tab(4).Control(186)=   "lbStationBinStatus2(7)"
+      Tab(4).Control(187)=   "lbStationBinStatus2(8)"
+      Tab(4).Control(188)=   "lbStationBinStatus2(9)"
+      Tab(4).Control(189)=   "lbStationBinStatus2(10)"
+      Tab(4).Control(190)=   "lbStationBinStatus2(11)"
+      Tab(4).Control(191)=   "lbStationBinStatus2(12)"
+      Tab(4).Control(192)=   "lbStationBinStatus2(13)"
+      Tab(4).Control(193)=   "lbStationBinStatus2(14)"
+      Tab(4).Control(194)=   "lbStationBinStatus2(15)"
+      Tab(4).Control(195)=   "lbStationBinStatus2(16)"
+      Tab(4).Control(196)=   "lbStationBinStatus2(17)"
+      Tab(4).Control(197)=   "lbStationBinStatus2(18)"
+      Tab(4).Control(198)=   "lbStationBinStatus2(19)"
+      Tab(4).Control(199)=   "lbBinSiteName2(1)"
+      Tab(4).Control(200)=   "lbStationBinStatus2(20)"
+      Tab(4).Control(201)=   "lbStationBinStatus2(21)"
+      Tab(4).Control(202)=   "lbStationBinStatus2(22)"
+      Tab(4).Control(203)=   "lbStationBinStatus2(23)"
+      Tab(4).Control(204)=   "lbStationBinStatus2(24)"
+      Tab(4).Control(205)=   "lbStationBinStatus2(25)"
+      Tab(4).Control(206)=   "lbStationBinStatus2(26)"
+      Tab(4).Control(207)=   "lbStationBinStatus2(27)"
+      Tab(4).Control(208)=   "lbStationBinStatus2(28)"
+      Tab(4).Control(209)=   "lbStationBinStatus2(29)"
+      Tab(4).Control(210)=   "lbBinSiteName2(2)"
+      Tab(4).Control(211)=   "lbStationBinStatus2(30)"
+      Tab(4).Control(212)=   "lbStationBinStatus2(31)"
+      Tab(4).Control(213)=   "lbStationBinStatus2(32)"
+      Tab(4).Control(214)=   "lbStationBinStatus2(33)"
+      Tab(4).Control(215)=   "lbStationBinStatus2(34)"
+      Tab(4).Control(216)=   "lbStationBinStatus2(35)"
+      Tab(4).Control(217)=   "lbStationBinStatus2(36)"
+      Tab(4).Control(218)=   "lbStationBinStatus2(37)"
+      Tab(4).Control(219)=   "lbStationBinStatus2(38)"
+      Tab(4).Control(220)=   "lbStationBinStatus2(39)"
+      Tab(4).Control(221)=   "lbBinSiteName2(3)"
+      Tab(4).Control(222)=   "lbStationBinStatus2(40)"
+      Tab(4).Control(223)=   "lbStationBinStatus2(41)"
+      Tab(4).Control(224)=   "lbStationBinStatus2(42)"
+      Tab(4).Control(225)=   "lbStationBinStatus2(43)"
+      Tab(4).Control(226)=   "lbStationBinStatus2(44)"
+      Tab(4).Control(227)=   "lbStationBinStatus2(45)"
+      Tab(4).Control(228)=   "lbStationBinStatus2(46)"
+      Tab(4).Control(229)=   "lbStationBinStatus2(47)"
+      Tab(4).Control(230)=   "lbStationBinStatus2(48)"
+      Tab(4).Control(231)=   "lbStationBinStatus2(49)"
+      Tab(4).Control(232)=   "lbBinSiteName2(4)"
+      Tab(4).Control(233)=   "lbStationBinStatus2(50)"
+      Tab(4).Control(234)=   "lbStationBinStatus2(51)"
+      Tab(4).Control(235)=   "lbStationBinStatus2(52)"
+      Tab(4).Control(236)=   "lbStationBinStatus2(53)"
+      Tab(4).Control(237)=   "lbStationBinStatus2(54)"
+      Tab(4).Control(238)=   "lbStationBinStatus2(55)"
+      Tab(4).Control(239)=   "lbStationBinStatus2(56)"
+      Tab(4).Control(240)=   "lbStationBinStatus2(57)"
+      Tab(4).Control(241)=   "lbStationBinStatus2(58)"
+      Tab(4).Control(242)=   "lbStationBinStatus2(59)"
+      Tab(4).Control(243)=   "lbBinSiteName2(5)"
+      Tab(4).Control(244)=   "lbStationBinStatus2(60)"
+      Tab(4).Control(245)=   "lbStationBinStatus2(61)"
+      Tab(4).Control(246)=   "lbStationBinStatus2(62)"
+      Tab(4).Control(247)=   "lbStationBinStatus2(63)"
+      Tab(4).Control(248)=   "lbStationBinStatus2(64)"
+      Tab(4).Control(249)=   "lbStationBinStatus2(65)"
+      Tab(4).Control(250)=   "lbStationBinStatus2(66)"
+      Tab(4).Control(251)=   "lbStationBinStatus2(67)"
+      Tab(4).Control(252)=   "lbStationBinStatus2(68)"
+      Tab(4).Control(253)=   "lbStationBinStatus2(69)"
+      Tab(4).Control(254)=   "lbBinSiteName2(6)"
+      Tab(4).Control(255)=   "lbStationBinStatus2(70)"
+      Tab(4).Control(256)=   "lbStationBinStatus2(71)"
+      Tab(4).Control(257)=   "lbStationBinStatus2(72)"
+      Tab(4).Control(258)=   "lbStationBinStatus2(73)"
+      Tab(4).Control(259)=   "lbStationBinStatus2(74)"
+      Tab(4).Control(260)=   "lbStationBinStatus2(75)"
+      Tab(4).Control(261)=   "lbStationBinStatus2(76)"
+      Tab(4).Control(262)=   "lbStationBinStatus2(77)"
+      Tab(4).Control(263)=   "lbStationBinStatus2(78)"
+      Tab(4).Control(264)=   "lbStationBinStatus2(79)"
+      Tab(4).Control(265)=   "lbBinSiteName2(7)"
+      Tab(4).Control(266)=   "lbStationBinStatus2(80)"
+      Tab(4).Control(267)=   "lbStationBinStatus2(81)"
+      Tab(4).Control(268)=   "lbStationBinStatus2(82)"
+      Tab(4).Control(269)=   "lbStationBinStatus2(83)"
+      Tab(4).Control(270)=   "lbStationBinStatus2(84)"
+      Tab(4).Control(271)=   "lbStationBinStatus2(85)"
+      Tab(4).Control(272)=   "lbStationBinStatus2(86)"
+      Tab(4).Control(273)=   "lbStationBinStatus2(87)"
+      Tab(4).Control(274)=   "lbStationBinStatus2(88)"
+      Tab(4).Control(275)=   "lbStationBinStatus2(89)"
+      Tab(4).Control(276)=   "lbBinSiteName2(8)"
+      Tab(4).Control(277)=   "lbStationBinStatus2(90)"
+      Tab(4).Control(278)=   "lbStationBinStatus2(91)"
+      Tab(4).Control(279)=   "lbStationBinStatus2(92)"
+      Tab(4).Control(280)=   "lbStationBinStatus2(93)"
+      Tab(4).Control(281)=   "lbStationBinStatus2(94)"
+      Tab(4).Control(282)=   "lbStationBinStatus2(95)"
+      Tab(4).Control(283)=   "lbStationBinStatus2(96)"
+      Tab(4).Control(284)=   "lbStationBinStatus2(97)"
+      Tab(4).Control(285)=   "lbStationBinStatus2(98)"
+      Tab(4).Control(286)=   "lbStationBinStatus2(99)"
+      Tab(4).Control(287)=   "lbBinSiteName2(9)"
+      Tab(4).Control(288)=   "lbStationBinStatus2(100)"
+      Tab(4).Control(289)=   "lbStationBinStatus2(101)"
+      Tab(4).Control(290)=   "lbStationBinStatus2(102)"
+      Tab(4).Control(291)=   "lbStationBinStatus2(103)"
+      Tab(4).Control(292)=   "lbStationBinStatus2(104)"
+      Tab(4).Control(293)=   "lbStationBinStatus2(105)"
+      Tab(4).Control(294)=   "lbStationBinStatus2(106)"
+      Tab(4).Control(295)=   "lbStationBinStatus2(107)"
+      Tab(4).Control(296)=   "lbStationBinStatus2(108)"
+      Tab(4).Control(297)=   "lbStationBinStatus2(109)"
+      Tab(4).Control(298)=   "lbBinSiteName2(10)"
+      Tab(4).Control(299)=   "lbStationBinStatus2(110)"
+      Tab(4).Control(300)=   "lbStationBinStatus2(111)"
+      Tab(4).Control(301)=   "lbStationBinStatus2(112)"
+      Tab(4).Control(302)=   "lbStationBinStatus2(113)"
+      Tab(4).Control(303)=   "lbStationBinStatus2(114)"
+      Tab(4).Control(304)=   "lbStationBinStatus2(115)"
+      Tab(4).Control(305)=   "lbStationBinStatus2(116)"
+      Tab(4).Control(306)=   "lbStationBinStatus2(117)"
+      Tab(4).Control(307)=   "lbStationBinStatus2(118)"
+      Tab(4).Control(308)=   "lbStationBinStatus2(119)"
+      Tab(4).Control(309)=   "lbBinSiteName2(11)"
+      Tab(4).Control(310)=   "lbStationBinStatus2(120)"
+      Tab(4).Control(311)=   "lbStationBinStatus2(121)"
+      Tab(4).Control(312)=   "lbStationBinStatus2(122)"
+      Tab(4).Control(313)=   "lbStationBinStatus2(123)"
+      Tab(4).Control(314)=   "lbStationBinStatus2(124)"
+      Tab(4).Control(315)=   "lbStationBinStatus2(125)"
+      Tab(4).Control(316)=   "lbStationBinStatus2(126)"
+      Tab(4).Control(317)=   "lbStationBinStatus2(127)"
+      Tab(4).Control(318)=   "lbStationBinStatus2(128)"
+      Tab(4).Control(319)=   "lbStationBinStatus2(129)"
+      Tab(4).Control(320)=   "lbBinSiteName2(12)"
+      Tab(4).Control(321)=   "lbStationBinStatus2(130)"
+      Tab(4).Control(322)=   "lbStationBinStatus2(131)"
+      Tab(4).Control(323)=   "lbStationBinStatus2(132)"
+      Tab(4).Control(324)=   "lbStationBinStatus2(133)"
+      Tab(4).Control(325)=   "lbStationBinStatus2(134)"
+      Tab(4).Control(326)=   "lbStationBinStatus2(135)"
+      Tab(4).Control(327)=   "lbStationBinStatus2(136)"
+      Tab(4).Control(328)=   "lbStationBinStatus2(137)"
+      Tab(4).Control(329)=   "lbStationBinStatus2(138)"
+      Tab(4).Control(330)=   "lbStationBinStatus2(139)"
+      Tab(4).Control(331)=   "lbBinSiteName2(13)"
+      Tab(4).Control(332)=   "lbStationBinStatus2(140)"
+      Tab(4).Control(333)=   "lbStationBinStatus2(141)"
+      Tab(4).Control(334)=   "lbStationBinStatus2(142)"
+      Tab(4).Control(335)=   "lbStationBinStatus2(143)"
+      Tab(4).Control(336)=   "lbStationBinStatus2(144)"
+      Tab(4).Control(337)=   "lbStationBinStatus2(145)"
+      Tab(4).Control(338)=   "lbStationBinStatus2(146)"
+      Tab(4).Control(339)=   "lbStationBinStatus2(147)"
+      Tab(4).Control(340)=   "lbStationBinStatus2(148)"
+      Tab(4).Control(341)=   "lbStationBinStatus2(149)"
+      Tab(4).Control(342)=   "lbBinSiteName2(14)"
+      Tab(4).Control(343)=   "lbStationBinStatus2(150)"
+      Tab(4).Control(344)=   "lbStationBinStatus2(151)"
+      Tab(4).Control(345)=   "lbStationBinStatus2(152)"
+      Tab(4).Control(346)=   "lbStationBinStatus2(153)"
+      Tab(4).Control(347)=   "lbStationBinStatus2(154)"
+      Tab(4).Control(348)=   "lbStationBinStatus2(155)"
+      Tab(4).Control(349)=   "lbStationBinStatus2(156)"
+      Tab(4).Control(350)=   "lbStationBinStatus2(157)"
+      Tab(4).Control(351)=   "lbStationBinStatus2(158)"
+      Tab(4).Control(352)=   "lbStationBinStatus2(159)"
+      Tab(4).Control(353)=   "lbBinSiteName2(15)"
       Tab(4).ControlCount=   354
       TabCaption(5)   =   "二维码"
       TabPicture(5)   =   "frmAutoRun.frx":586E
       Tab(5).ControlEnabled=   0   'False
-      Tab(5).Control(0)=   "Frame8"
+      Tab(5).Control(0)=   "QRCodeList"
       Tab(5).Control(1)=   "frmBarCode"
-      Tab(5).Control(2)=   "QRCodeList"
+      Tab(5).Control(2)=   "Frame8"
       Tab(5).ControlCount=   3
       TabCaption(6)   =   "TrayQR"
       TabPicture(6)   =   "frmAutoRun.frx":588A
@@ -28245,7 +28244,7 @@ Begin VB.Form frmAutoRun
          _ExtentY        =   1005
          _Version        =   393216
          DTREnable       =   -1  'True
-   End
+      End
    End
    Begin VB.Frame Frame6 
       Height          =   3015
@@ -30776,7 +30775,7 @@ Begin VB.Form frmAutoRun
       _ExtentY        =   10980
       _Version        =   393216
       Tabs            =   12
-      Tab             =   8
+      Tab             =   4
       TabsPerRow      =   6
       TabHeight       =   876
       BeginProperty Font {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
@@ -30796,73 +30795,88 @@ Begin VB.Form frmAutoRun
       TabCaption(1)   =   "测试参数"
       TabPicture(1)   =   "frmAutoRun.frx":316EF
       Tab(1).ControlEnabled=   0   'False
-      Tab(1).Control(0)=   "lbReportValue(0)"
-      Tab(1).Control(1)=   "lbReportName(0)"
-      Tab(1).Control(2)=   "lbReportValue(1)"
-      Tab(1).Control(3)=   "lbReportName(1)"
-      Tab(1).Control(4)=   "lbReportUnit(0)"
-      Tab(1).Control(5)=   "lbReportUnit(1)"
-      Tab(1).Control(6)=   "lbReportValue(2)"
-      Tab(1).Control(7)=   "lbReportName(2)"
-      Tab(1).Control(8)=   "lbReportUnit(2)"
-      Tab(1).Control(9)=   "lbReportValue(3)"
-      Tab(1).Control(10)=   "lbReportName(3)"
-      Tab(1).Control(11)=   "lbReportName(4)"
-      Tab(1).Control(12)=   "lbReportValue(4)"
-      Tab(1).Control(13)=   "lbReportUnit(4)"
+      Tab(1).Control(0)=   "lbReportUnit(4)"
+      Tab(1).Control(1)=   "lbReportValue(4)"
+      Tab(1).Control(2)=   "lbReportName(4)"
+      Tab(1).Control(3)=   "lbReportName(3)"
+      Tab(1).Control(4)=   "lbReportValue(3)"
+      Tab(1).Control(5)=   "lbReportUnit(2)"
+      Tab(1).Control(6)=   "lbReportName(2)"
+      Tab(1).Control(7)=   "lbReportValue(2)"
+      Tab(1).Control(8)=   "lbReportUnit(1)"
+      Tab(1).Control(9)=   "lbReportUnit(0)"
+      Tab(1).Control(10)=   "lbReportName(1)"
+      Tab(1).Control(11)=   "lbReportValue(1)"
+      Tab(1).Control(12)=   "lbReportName(0)"
+      Tab(1).Control(13)=   "lbReportValue(0)"
       Tab(1).ControlCount=   14
       TabCaption(2)   =   "UPH历史"
       TabPicture(2)   =   "frmAutoRun.frx":3170B
       Tab(2).ControlEnabled=   0   'False
-      Tab(2).Control(0)=   "lbReportUnit(3)"
-      Tab(2).Control(1)=   "msfgUPHList"
+      Tab(2).Control(0)=   "msfgUPHList"
+      Tab(2).Control(1)=   "lbReportUnit(3)"
       Tab(2).ControlCount=   2
       TabCaption(3)   =   "SLT"
       TabPicture(3)   =   "frmAutoRun.frx":31727
       Tab(3).ControlEnabled=   0   'False
-      Tab(3).Control(0)=   "Label25"
-      Tab(3).Control(1)=   "Label24"
-      Tab(3).Control(2)=   "Label23"
-      Tab(3).Control(3)=   "Label22"
-      Tab(3).Control(4)=   "Label19"
-      Tab(3).Control(5)=   "Label18"
-      Tab(3).Control(6)=   "Label17"
-      Tab(3).Control(7)=   "lbSLTCustom"
-      Tab(3).Control(8)=   "lbSLTDeviceName"
-      Tab(3).Control(9)=   "lbSLTLotNo"
-      Tab(3).Control(10)=   "lbSLTReportDate"
-      Tab(3).Control(11)=   "lbSLTEquipNo"
-      Tab(3).Control(12)=   "lbSLTOperator"
-      Tab(3).Control(13)=   "lbSLTTestProgram"
-      Tab(3).Control(14)=   "cdOutputTestResult"
-      Tab(3).Control(15)=   "btnPrintReport"
+      Tab(3).Control(0)=   "btnPrintReport"
+      Tab(3).Control(1)=   "cdOutputTestResult"
+      Tab(3).Control(2)=   "lbSLTTestProgram"
+      Tab(3).Control(3)=   "lbSLTOperator"
+      Tab(3).Control(4)=   "lbSLTEquipNo"
+      Tab(3).Control(5)=   "lbSLTReportDate"
+      Tab(3).Control(6)=   "lbSLTLotNo"
+      Tab(3).Control(7)=   "lbSLTDeviceName"
+      Tab(3).Control(8)=   "lbSLTCustom"
+      Tab(3).Control(9)=   "Label17"
+      Tab(3).Control(10)=   "Label18"
+      Tab(3).Control(11)=   "Label19"
+      Tab(3).Control(12)=   "Label22"
+      Tab(3).Control(13)=   "Label23"
+      Tab(3).Control(14)=   "Label24"
+      Tab(3).Control(15)=   "Label25"
       Tab(3).ControlCount=   16
       TabCaption(4)   =   "功能区"
       TabPicture(4)   =   "frmAutoRun.frx":31743
-      Tab(4).ControlEnabled=   0   'False
+      Tab(4).ControlEnabled=   -1  'True
       Tab(4).Control(0)=   "btnFRT"
+      Tab(4).Control(0).Enabled=   0   'False
       Tab(4).Control(1)=   "btnInputTrayNoICAutoRun"
+      Tab(4).Control(1).Enabled=   0   'False
       Tab(4).Control(2)=   "btnLight"
+      Tab(4).Control(2).Enabled=   0   'False
       Tab(4).Control(3)=   "btnFanOpen"
+      Tab(4).Control(3).Enabled=   0   'False
       Tab(4).Control(4)=   "btnIOScan"
+      Tab(4).Control(4).Enabled=   0   'False
       Tab(4).Control(5)=   "btnAnalogTest"
+      Tab(4).Control(5).Enabled=   0   'False
       Tab(4).Control(6)=   "btnYeildShow"
+      Tab(4).Control(6).Enabled=   0   'False
       Tab(4).Control(7)=   "BtnMerge"
+      Tab(4).Control(7).Enabled=   0   'False
       Tab(4).Control(8)=   "BtnBatch"
+      Tab(4).Control(8).Enabled=   0   'False
       Tab(4).Control(9)=   "AutoClean"
+      Tab(4).Control(9).Enabled=   0   'False
       Tab(4).Control(10)=   "CLeanIC"
+      Tab(4).Control(10).Enabled=   0   'False
       Tab(4).Control(11)=   "btnDebugMode"
+      Tab(4).Control(11).Enabled=   0   'False
       Tab(4).Control(12)=   "BtnFailReTest"
+      Tab(4).Control(12).Enabled=   0   'False
       Tab(4).Control(13)=   "OfflineClean"
+      Tab(4).Control(13).Enabled=   0   'False
       Tab(4).Control(14)=   "btnSocketHasICSensorCheck"
+      Tab(4).Control(14).Enabled=   0   'False
       Tab(4).ControlCount=   15
       TabCaption(5)   =   "温度"
       TabPicture(5)   =   "frmAutoRun.frx":3175F
       Tab(5).ControlEnabled=   0   'False
-      Tab(5).Control(0)=   "Pdown"
-      Tab(5).Control(1)=   "Pup"
-      Tab(5).Control(2)=   "lbTemperatureNow(1)"
-      Tab(5).Control(3)=   "lbTemp(1)"
+      Tab(5).Control(0)=   "lbTemp(1)"
+      Tab(5).Control(1)=   "lbTemperatureNow(1)"
+      Tab(5).Control(2)=   "Pup"
+      Tab(5).Control(3)=   "Pdown"
       Tab(5).ControlCount=   4
       TabCaption(6)   =   "Socket"
       TabPicture(6)   =   "frmAutoRun.frx":3177B
@@ -30872,13 +30886,13 @@ Begin VB.Form frmAutoRun
       TabCaption(7)   =   "ESD"
       TabPicture(7)   =   "frmAutoRun.frx":31797
       Tab(7).ControlEnabled=   0   'False
-      Tab(7).Control(0)=   "BtnESDTest"
+      Tab(7).Control(0)=   "lbESDNow(1)"
       Tab(7).Control(1)=   "lbESD(1)"
-      Tab(7).Control(2)=   "lbESDNow(1)"
+      Tab(7).Control(2)=   "BtnESDTest"
       Tab(7).ControlCount=   3
       TabCaption(8)   =   "New Lot"
       TabPicture(8)   =   "frmAutoRun.frx":317B3
-      Tab(8).ControlEnabled=   -1  'True
+      Tab(8).ControlEnabled=   0   'False
       Tab(8).Control(0)=   "Label11"
       Tab(8).Control(0).Enabled=   0   'False
       Tab(8).Control(1)=   "Label7"
@@ -30907,73 +30921,73 @@ Begin VB.Form frmAutoRun
       TabCaption(9)   =   "设置信息"
       TabPicture(9)   =   "frmAutoRun.frx":317CF
       Tab(9).ControlEnabled=   0   'False
-      Tab(9).Control(0)=   "lbSiteMappingstatus"
-      Tab(9).Control(1)=   "lbSiteMapping"
-      Tab(9).Control(2)=   "lbOSBin"
-      Tab(9).Control(3)=   "lbInitSocketXiQu"
-      Tab(9).Control(4)=   "lbSocketDieLiao"
-      Tab(9).Control(5)=   "lbSocketDieLiaoName(0)"
-      Tab(9).Control(6)=   "lbSocketDieLiaoName(1)"
-      Tab(9).Control(7)=   "lbSocketDieLiaoName(2)"
-      Tab(9).Control(8)=   "lbOSBinValue(0)"
-      Tab(9).Control(9)=   "lbInitSocketXiQuValue"
-      Tab(9).Control(10)=   "lbSocketDieLiaoValue"
-      Tab(9).Control(11)=   "lbSocketDieLiaoStatus(0)"
-      Tab(9).Control(12)=   "lbSocketDieLiaoStatus(1)"
-      Tab(9).Control(13)=   "lbSocketDieLiaoStatus(2)"
+      Tab(9).Control(0)=   "lbSocketDieLiaoStatus(2)"
+      Tab(9).Control(1)=   "lbSocketDieLiaoStatus(1)"
+      Tab(9).Control(2)=   "lbSocketDieLiaoStatus(0)"
+      Tab(9).Control(3)=   "lbSocketDieLiaoValue"
+      Tab(9).Control(4)=   "lbInitSocketXiQuValue"
+      Tab(9).Control(5)=   "lbOSBinValue(0)"
+      Tab(9).Control(6)=   "lbSocketDieLiaoName(2)"
+      Tab(9).Control(7)=   "lbSocketDieLiaoName(1)"
+      Tab(9).Control(8)=   "lbSocketDieLiaoName(0)"
+      Tab(9).Control(9)=   "lbSocketDieLiao"
+      Tab(9).Control(10)=   "lbInitSocketXiQu"
+      Tab(9).Control(11)=   "lbOSBin"
+      Tab(9).Control(12)=   "lbSiteMapping"
+      Tab(9).Control(13)=   "lbSiteMappingstatus"
       Tab(9).ControlCount=   14
       TabCaption(10)  =   "Unload 二维码"
       TabPicture(10)  =   "frmAutoRun.frx":317EB
       Tab(10).ControlEnabled=   0   'False
-      Tab(10).Control(0)=   "btnCheckIn(13)"
-      Tab(10).Control(1)=   "btnCheckIn(12)"
-      Tab(10).Control(2)=   "btnCheckIn(11)"
-      Tab(10).Control(3)=   "btnCheckIn(10)"
-      Tab(10).Control(4)=   "btnCheckIn(9)"
-      Tab(10).Control(5)=   "btnCheckIn(8)"
-      Tab(10).Control(6)=   "lbTrayQRCode(1)"
-      Tab(10).Control(7)=   "lbTrayQRCode(2)"
-      Tab(10).Control(8)=   "lbTrayQRCode(6)"
-      Tab(10).Control(9)=   "lbTrayQRCode(5)"
-      Tab(10).Control(10)=   "lbTrayQRCode(4)"
-      Tab(10).Control(11)=   "lbTrayQRCode(3)"
-      Tab(10).Control(12)=   "btnCheckIn(0)"
-      Tab(10).Control(13)=   "btnCheckIn(1)"
-      Tab(10).Control(14)=   "btnCheckIn(2)"
-      Tab(10).Control(15)=   "btnCheckIn(3)"
-      Tab(10).Control(16)=   "btnCheckIn(4)"
-      Tab(10).Control(17)=   "btnCheckIn(5)"
-      Tab(10).Control(18)=   "btnCheckIn(6)"
-      Tab(10).Control(19)=   "btnCheckIn(7)"
-      Tab(10).Control(20)=   "txtUnloadQR"
-      Tab(10).Control(21)=   "lbTrayInfoID(6)"
-      Tab(10).Control(22)=   "lbTrayInfoID(1)"
-      Tab(10).Control(23)=   "lbTrayInfoID(2)"
-      Tab(10).Control(24)=   "lbTrayInfoID(3)"
-      Tab(10).Control(25)=   "lbTrayInfoID(4)"
-      Tab(10).Control(26)=   "lbTrayInfoID(5)"
-      Tab(10).Control(27)=   "lbBatchOrderQR"
+      Tab(10).Control(0)=   "lbBatchOrderQR"
+      Tab(10).Control(1)=   "lbTrayInfoID(5)"
+      Tab(10).Control(2)=   "lbTrayInfoID(4)"
+      Tab(10).Control(3)=   "lbTrayInfoID(3)"
+      Tab(10).Control(4)=   "lbTrayInfoID(2)"
+      Tab(10).Control(5)=   "lbTrayInfoID(1)"
+      Tab(10).Control(6)=   "lbTrayInfoID(6)"
+      Tab(10).Control(7)=   "txtUnloadQR"
+      Tab(10).Control(8)=   "btnCheckIn(7)"
+      Tab(10).Control(9)=   "btnCheckIn(6)"
+      Tab(10).Control(10)=   "btnCheckIn(5)"
+      Tab(10).Control(11)=   "btnCheckIn(4)"
+      Tab(10).Control(12)=   "btnCheckIn(3)"
+      Tab(10).Control(13)=   "btnCheckIn(2)"
+      Tab(10).Control(14)=   "btnCheckIn(1)"
+      Tab(10).Control(15)=   "btnCheckIn(0)"
+      Tab(10).Control(16)=   "lbTrayQRCode(3)"
+      Tab(10).Control(17)=   "lbTrayQRCode(4)"
+      Tab(10).Control(18)=   "lbTrayQRCode(5)"
+      Tab(10).Control(19)=   "lbTrayQRCode(6)"
+      Tab(10).Control(20)=   "lbTrayQRCode(2)"
+      Tab(10).Control(21)=   "lbTrayQRCode(1)"
+      Tab(10).Control(22)=   "btnCheckIn(8)"
+      Tab(10).Control(23)=   "btnCheckIn(9)"
+      Tab(10).Control(24)=   "btnCheckIn(10)"
+      Tab(10).Control(25)=   "btnCheckIn(11)"
+      Tab(10).Control(26)=   "btnCheckIn(12)"
+      Tab(10).Control(27)=   "btnCheckIn(13)"
       Tab(10).ControlCount=   28
       TabCaption(11)  =   "MTBA"
       TabPicture(11)  =   "frmAutoRun.frx":31807
       Tab(11).ControlEnabled=   0   'False
-      Tab(11).Control(0)=   "cmdClearData"
-      Tab(11).Control(1)=   "lbMUBA"
-      Tab(11).Control(2)=   "lbMTBA"
-      Tab(11).Control(3)=   "lbTotalRunTime"
-      Tab(11).Control(4)=   "lbTotalRun"
-      Tab(11).Control(5)=   "lbJamCount"
-      Tab(11).Control(6)=   "lbJamTime"
-      Tab(11).Control(7)=   "lbStopTime"
+      Tab(11).Control(0)=   "Label35"
+      Tab(11).Control(1)=   "Label34"
+      Tab(11).Control(2)=   "Label10(0)"
+      Tab(11).Control(3)=   "Label33"
+      Tab(11).Control(4)=   "Label32"
+      Tab(11).Control(5)=   "Label30"
+      Tab(11).Control(6)=   "Label28"
+      Tab(11).Control(7)=   "Label5(6)"
       Tab(11).Control(8)=   "lbRunTIme"
-      Tab(11).Control(9)=   "Label5(6)"
-      Tab(11).Control(10)=   "Label28"
-      Tab(11).Control(11)=   "Label30"
-      Tab(11).Control(12)=   "Label32"
-      Tab(11).Control(13)=   "Label33"
-      Tab(11).Control(14)=   "Label10(0)"
-      Tab(11).Control(15)=   "Label34"
-      Tab(11).Control(16)=   "Label35"
+      Tab(11).Control(9)=   "lbStopTime"
+      Tab(11).Control(10)=   "lbJamTime"
+      Tab(11).Control(11)=   "lbJamCount"
+      Tab(11).Control(12)=   "lbTotalRun"
+      Tab(11).Control(13)=   "lbTotalRunTime"
+      Tab(11).Control(14)=   "lbMTBA"
+      Tab(11).Control(15)=   "lbMUBA"
+      Tab(11).Control(16)=   "cmdClearData"
       Tab(11).ControlCount=   17
       Begin VB.CheckBox chkSample 
          Caption         =   "抽检"
@@ -30988,7 +31002,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   1560
+         Left            =   -73440
          TabIndex        =   1712
          Top             =   2933
          Width           =   975
@@ -31077,7 +31091,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -71040
+         Left            =   3960
          Style           =   1  'Graphical
          TabIndex        =   1703
          Top             =   4080
@@ -31096,7 +31110,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -71040
+         Left            =   3960
          Style           =   1  'Graphical
          TabIndex        =   1702
          Top             =   3240
@@ -31209,7 +31223,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -71040
+         Left            =   3960
          Style           =   1  'Graphical
          TabIndex        =   1658
          Top             =   2400
@@ -31457,7 +31471,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   1200
+         Left            =   -73800
          TabIndex        =   1584
          Top             =   4350
          Width           =   1335
@@ -31474,7 +31488,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   495
-         Left            =   3000
+         Left            =   -72000
          TabIndex        =   1583
          Top             =   4350
          Width           =   1335
@@ -31490,7 +31504,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   405
-         Left            =   1560
+         Left            =   -73440
          TabIndex        =   1582
          Text            =   "txtLotID"
          Top             =   1710
@@ -31507,7 +31521,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   405
-         Left            =   1560
+         Left            =   -73440
          TabIndex        =   1581
          Text            =   "txtOPID"
          Top             =   2310
@@ -31526,7 +31540,7 @@ Begin VB.Form frmAutoRun
          EndProperty
          Height          =   375
          Index           =   0
-         Left            =   1920
+         Left            =   -73080
          TabIndex        =   1580
          Top             =   3510
          Width           =   975
@@ -31544,7 +31558,7 @@ Begin VB.Form frmAutoRun
          EndProperty
          Height          =   375
          Index           =   1
-         Left            =   3240
+         Left            =   -71760
          TabIndex        =   1579
          Top             =   3510
          Width           =   975
@@ -31560,7 +31574,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   420
-         Left            =   4320
+         Left            =   -70680
          TabIndex        =   1578
          Top             =   2910
          Width           =   1440
@@ -31577,7 +31591,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   375
-         Left            =   2880
+         Left            =   -72120
          TabIndex        =   1577
          Top             =   2933
          Width           =   1335
@@ -31594,7 +31608,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -71040
+         Left            =   3960
          Style           =   1  'Graphical
          TabIndex        =   1576
          Top             =   1590
@@ -31613,7 +31627,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -74640
+         Left            =   360
          Style           =   1  'Graphical
          TabIndex        =   1575
          Top             =   5070
@@ -31631,7 +31645,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -72840
+         Left            =   2160
          Style           =   1  'Graphical
          TabIndex        =   1574
          Top             =   3270
@@ -31650,7 +31664,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -72840
+         Left            =   2160
          Style           =   1  'Graphical
          TabIndex        =   1573
          Top             =   5070
@@ -31668,7 +31682,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -74640
+         Left            =   360
          Style           =   1  'Graphical
          TabIndex        =   1572
          Top             =   3270
@@ -31686,7 +31700,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -72840
+         Left            =   2160
          Style           =   1  'Graphical
          TabIndex        =   1571
          Top             =   4110
@@ -31704,7 +31718,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -74640
+         Left            =   360
          Style           =   1  'Graphical
          TabIndex        =   1570
          Top             =   4140
@@ -31722,7 +31736,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -72840
+         Left            =   2160
          Style           =   1  'Graphical
          TabIndex        =   1569
          Top             =   2430
@@ -31740,7 +31754,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -74640
+         Left            =   360
          Style           =   1  'Graphical
          TabIndex        =   1568
          Top             =   1590
@@ -31758,7 +31772,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   720
-         Left            =   -72840
+         Left            =   2160
          Style           =   1  'Graphical
          TabIndex        =   1567
          Top             =   1590
@@ -31768,7 +31782,7 @@ Begin VB.Form frmAutoRun
          BackColor       =   &H0000FF00&
          Caption         =   "FT"
          Height          =   720
-         Left            =   -74640
+         Left            =   360
          Style           =   1  'Graphical
          TabIndex        =   1566
          Top             =   2430
@@ -32772,7 +32786,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
-         Left            =   720
+         Left            =   -74280
          TabIndex        =   1622
          Top             =   1830
          Width           =   840
@@ -32790,7 +32804,7 @@ Begin VB.Form frmAutoRun
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
-         Left            =   840
+         Left            =   -74160
          TabIndex        =   1621
          Top             =   2430
          Width           =   720
@@ -33169,7 +33183,7 @@ End Sub
 
 Private Sub chkKeyboard_Click() '20250103 钟海 工单码不能键盘输入,只能扫码枪输入
     If StOutputArmParam.Set_chkKeyboardVisibleEn = 1 Then '20250318 梁子旋 客户只要在数据库开关功能，不要在界面显示
-        If chkKeyboard.value = Checked Then
+        If chkKeyboard.Value = Checked Then
             StQRCode.Set_BatchOrderQRInputMode = 1
         Else
             StQRCode.Set_BatchOrderQRInputMode = 0
@@ -33185,39 +33199,39 @@ Private Sub chkSample_Click() '250107 钟海 新增抽检功能
         Exit Sub
     End If
 
-    If Me.chkSample.value = Unchecked Then
+    If Me.chkSample.Value = Unchecked Then
         If StOutputArmParam.SampleTrayFlag = 1 Then
             answer = MsgBox("是否结束抽检?", vbExclamation + vbYesNo, "请确认")
             If answer = vbYes Then
                 StOutputArmParam.SampleTrayFlag = 0
                 Call UpdateBaseParambyCode("SampleTrayFlag", StOutputArmParam.SampleTrayFlag)
             Else
-                Me.chkSample.value = Checked
-                Me.FTRTflag(0).value = Checked '20250301-张伦-不结束抽检，恢复到FT模式
+                Me.chkSample.Value = Checked
+                Me.FTRTflag(0).Value = Checked '20250301-张伦-不结束抽检，恢复到FT模式
             End If
         End If
     Else
         If SystemRetestFlag = 1 Then
             MsgBox ("RT模式无法进行抽检")
-            Me.chkSample.value = Unchecked
+            Me.chkSample.Value = Unchecked
         ElseIf StOutputArmParam.SampleTrayFlag = 0 And ((StOutputArmParam.SampleCurrentNum < StOutputArmParam.SampleTotalNum) Or StOutputArmParam.SampleTotalNum = 0) Then
             answer = MsgBox("是否继续抽检?", vbExclamation + vbYesNo, "请确认")
             If answer = vbYes Then
                 StOutputArmParam.SampleTrayFlag = 1
                 Call UpdateBaseParambyCode("SampleTrayFlag", StOutputArmParam.SampleTrayFlag)
             Else
-                Me.chkSample.value = Unchecked
+                Me.chkSample.Value = Unchecked
             End If
         ElseIf StOutputArmParam.SampleTrayFlag = 0 Then
             MsgBox ("当前批次抽检流程已结束，无法继续抽检流程")
-            Me.chkSample.value = Unchecked
+            Me.chkSample.Value = Unchecked
         End If
     End If
 End Sub
 
 '20220627 高超杰 新建批次数量
 Private Sub CkICNumEn_Click()
-    If Me.CkICNumEn.value = 1 Then
+    If Me.CkICNumEn.Value = 1 Then
         Me.NewLotICNum.Visible = True
         Call Mod_DB.UpdateBaseParam("批次数量监控功能开关", 1)
         StTestIC.Set_CheckNewLotICNumEn = 1
@@ -33299,8 +33313,8 @@ End Sub
 Private Sub BtnBatch_Click()
 On Error GoTo ErrorHandler
     If SystemStatus = 0 Then
-        frmReport.left = 100
-        frmReport.top = 500
+        frmReport.Left = 100
+        frmReport.Top = 500
         frmReport.Show
         Call frmReport.btnReportMenu_Click(0)
         DebugMainLoopFlag = 1
@@ -33493,11 +33507,11 @@ Private Sub btnEndLot_Click()
 140           End If
               
 150           For i = 1 To 8
-160               If BY(StTestArm.ARM1Station(i).VXiQu).StateNow = 1 And BX(StTestArm.ARM1Station(i).SVYaLi).StateNow = 1 Then
+160               If By(StTestArm.ARM1Station(i).VXiQu).StateNow = 1 And BX(StTestArm.ARM1Station(i).SVYaLi).StateNow = 1 Then
 170                   MsgBox (TranslateWords("ARM1吸嘴上有料，请先将料拿走", "frmReportForBarcode", 43))
 180                   Exit Sub
 190               End If
-200               If BY(StTestArm.ARM2Station(i).VXiQu).StateNow = 1 And BX(StTestArm.ARM2Station(i).SVYaLi).StateNow = 1 Then
+200               If By(StTestArm.ARM2Station(i).VXiQu).StateNow = 1 And BX(StTestArm.ARM2Station(i).SVYaLi).StateNow = 1 Then
 210                   MsgBox (TranslateWords("ARM2吸嘴上有料，请先将料拿走", "frmReportForBarcode", 44))
 220                   Exit Sub
 230               End If
@@ -33634,7 +33648,7 @@ On Error GoTo ErrorHandler
         ElseIf InStr(1, Me.txtLotID.Text, ";") > 0 Then '钟海 241231 修复批次名称中含有分号无法保存数据库的问题
             MsgBox ("批次名称中含有非法字符(;)，请重新输入批次名称")
             Exit Sub
-        ElseIf Me.FTRTflag(0).value = Me.FTRTflag(1).value Then
+        ElseIf Me.FTRTflag(0).Value = Me.FTRTflag(1).Value Then
             MsgBox ("请选择FT或RT")
             Exit Sub
         End If
@@ -33649,20 +33663,20 @@ On Error GoTo ErrorHandler
         End If
         
         '250107 钟海 新增抽检功能
-        If Me.FTRTflag(1).value = Checked And Me.chkSample.value = Checked Then
+        If Me.FTRTflag(1).Value = Checked And Me.chkSample.Value = Checked Then
             MsgBox ("只能FT批次进行抽检，请重新确认批次是否抽检")
             Exit Sub
         End If
-        If Me.chkSample.value = Checked And (StOutputArmParam.SampleCycleNum = 0 Or StOutputArmParam.SampleTrayIndex = 0) Then
+        If Me.chkSample.Value = Checked And (StOutputArmParam.SampleCycleNum = 0 Or StOutputArmParam.SampleTrayIndex = 0) Then
             MsgBox ("抽检参数未设置正确，请进入Bin设置界面修改确认相关参数")
             Exit Sub
-        ElseIf Me.chkSample.value = Checked And StOutputArmParam.SampleTotalNum = 0 Then
+        ElseIf Me.chkSample.Value = Checked And StOutputArmParam.SampleTotalNum = 0 Then
             answer = MsgBox("抽检总数设置为0，下一个新建的批次会一直执行抽检，确认是否执行抽检?", vbExclamation + vbYesNo, "请确认")
             If answer = vbNo Then
                 Exit Sub
             End If
         End If
-        If Me.FTRTflag(0).value = Checked And Me.chkSample.value = Unchecked And StOutputArmParam.SampleTrayEn = 1 Then
+        If Me.FTRTflag(0).Value = Checked And Me.chkSample.Value = Unchecked And StOutputArmParam.SampleTrayEn = 1 Then
             answer = MsgBox("当前批次是FT,没有勾选抽检，是否继续开批?", vbExclamation + vbYesNo, "请确认")
             If answer = vbNo Then
                 Exit Sub
@@ -33767,7 +33781,7 @@ On Error GoTo ErrorHandler
                 Call Write2DIDReportToExcel(1)
             End If
             
-            If Me.chkSample.value = Checked And StOutputArmParam.SampleTrayEn = 1 Then '钟海 250106 新增抽检功能
+            If Me.chkSample.Value = Checked And StOutputArmParam.SampleTrayEn = 1 Then '钟海 250106 新增抽检功能
                 StOutputArmParam.SampleTrayFlag = 1
             Else
                 StOutputArmParam.SampleTrayFlag = 0
@@ -33777,7 +33791,7 @@ On Error GoTo ErrorHandler
             Call UpdateBaseParambyCode("SampleTrayFlag", StOutputArmParam.SampleTrayFlag)
             Call UpdateBaseParambyCode("SampleCurrentNum", StOutputArmParam.SampleCurrentNum)
             
-            If Me.FTRTflag(0).value = Checked Then
+            If Me.FTRTflag(0).Value = Checked Then
                 SystemRetestFlag = 0
                 frmAutoRun.btnFRT.Caption = "FT"
                 frmAutoRun.btnFRT.BackColor = &HFF00&
@@ -33797,7 +33811,7 @@ On Error GoTo ErrorHandler
                     Call frmAutoRun.InitAutoFormBinToT
                 End If
                 
-            ElseIf Me.FTRTflag(1).value = Checked Then
+            ElseIf Me.FTRTflag(1).Value = Checked Then
                 SystemRetestFlag = 1
                 frmAutoRun.btnFRT.Caption = "RT"
                 frmAutoRun.btnFRT.BackColor = &HFF&
@@ -34059,19 +34073,19 @@ End Sub
 Private Sub FTRTflag_Click(Index As Integer)
 
     '20250228-张伦-FTRT单选
-    If Me.FTRTflag(Index).value = Checked Then
-        Me.FTRTflag(1 - Index).value = 0
+    If Me.FTRTflag(Index).Value = Checked Then
+        Me.FTRTflag(1 - Index).Value = 0
     End If
-    If Me.FTRTflag(Index).value = Unchecked Then
-        Me.FTRTflag(1 - Index).value = 1
+    If Me.FTRTflag(Index).Value = Unchecked Then
+        Me.FTRTflag(1 - Index).Value = 1
     End If
     
     If StOutputArmParam.SampleTrayEn = 0 Then
         Exit Sub
     End If
-    If Me.FTRTflag(0).value = Checked And Me.FTRTflag(1).value = Unchecked Then
+    If Me.FTRTflag(0).Value = Checked And Me.FTRTflag(1).Value = Unchecked Then
         Me.chkSample = Checked
-    ElseIf Me.FTRTflag(1).value = Checked Then
+    ElseIf Me.FTRTflag(1).Value = Checked Then
         Me.chkSample = Unchecked
     End If
 End Sub
@@ -34232,8 +34246,8 @@ End Sub
 Private Sub btnIOScan_Click()
 On Error GoTo ErrorHandler
     If UserInfo.UserCode = "gys" Then
-        frmIOScan.left = 0
-        frmIOScan.top = 500
+        frmIOScan.Left = 0
+        frmIOScan.Top = 500
         frmIOScan.Show
     Else
         MsgBox ("您没有IO监控的权限，请切换用户")
@@ -34250,7 +34264,7 @@ End Sub
 Private Sub btnFanOpen_Click()
 On Error GoTo ErrorHandler
     If StTestArmParam.Set_BigFanAutoRun = 0 Then
-        If BY(OY_Sys_BigFan).StateNow = 0 Then
+        If By(OY_Sys_BigFan).StateNow = 0 Then
             Call SetOutput(OY_Sys_BigFan, 1)
             Me.btnFanOpen.BackColor = &H80000010
         Else
@@ -34298,11 +34312,11 @@ Private Sub btnLight_Click()
 On Error GoTo ErrorHandler
     If SystemRunLightOnFlag = 1 Then
         SystemRunLightOnFlag = 0
-        BY(OY_Sys_RiGuangDeng).StateNow = 0
+        By(OY_Sys_RiGuangDeng).StateNow = 0
         Me.btnLight.BackColor = &H8000000F
     Else
         SystemRunLightOnFlag = 1
-        BY(OY_Sys_RiGuangDeng).StateNow = 1
+        By(OY_Sys_RiGuangDeng).StateNow = 1
         Me.btnLight.BackColor = &H80000010
     End If
 Exit Sub
@@ -34348,7 +34362,7 @@ End Sub
 Private Sub msfgLPassPerGrid_DblClick()
 On Error GoTo ErrorHandler
     If SystemStatus <> 1 Then
-        Call ClearStationYieldRate(Me.msfgLPassPerGrid.Row, Me.msfgLPassPerGrid.col)
+        Call ClearStationYieldRate(Me.msfgLPassPerGrid.Row, Me.msfgLPassPerGrid.Col)
     End If
 Exit Sub
 ErrorHandler:
@@ -34432,11 +34446,11 @@ Private Sub Form_Load()
 On Error GoTo ErrorHandler
     Me.sbAutoRun.Panels(1).Text = "杭州长川科技"
     Me.Caption = StTestIC.MachineName & "控制系统"
-    Me.top = 0
-    Me.left = 0
+    Me.Top = 0
+    Me.Left = 0
     Me.sstTest.Tab = 0
     Me.stCount.Tab = 0
-    Me.top = 0
+    Me.Top = 0
     
     If StTestArmParam.Set_SocketLifeTimeEn = 0 Then
         Me.stCount.TabVisible(6) = False
@@ -34461,9 +34475,9 @@ On Error GoTo ErrorHandler
         lbTrayInfoID(i).Visible = True
         lbTrayQRCode(i).Visible = True
         btnCheckIn(i - 1).Visible = True
-        lbTrayInfoID(i).top = txtUnloadQR.top + 1000 + 1000 * (i - 4)
-        lbTrayQRCode(i).top = lbTrayInfoID(i).top
-        btnCheckIn(i - 1).top = lbTrayInfoID(i).top
+        lbTrayInfoID(i).Top = txtUnloadQR.Top + 1000 + 1000 * (i - 4)
+        lbTrayQRCode(i).Top = lbTrayInfoID(i).Top
+        btnCheckIn(i - 1).Top = lbTrayInfoID(i).Top
     Next
     
     StQRCode.BatchOrderQREnableFlag = 1 '20230407 王莹莹 启动程序时，工单码可输入
@@ -34494,8 +34508,8 @@ Private Sub IniHeatShowLab()
           
           '20220622 高超杰 修改温度界面标签刷新，因为第一个温度标签不能卸载，所以需要特殊处理，不然界面显示有问题
           '20231212 许志尧 修复换页后重新初始化页面时位置存在异常的问题
-30        Me.lbTemp(1).top = 1470 '2024022 陈佳杰 原600，会挡住tab
-40        Me.lbTemperatureNow(1).top = 1410 '540
+30        Me.lbTemp(1).Top = 1470 '2024022 陈佳杰 原600，会挡住tab
+40        Me.lbTemperatureNow(1).Top = 1410 '540
 50        lbTemp(1).Visible = True
 60        lbTemperatureNow(1).Visible = True
               
@@ -34522,15 +34536,15 @@ Private Sub IniHeatShowLab()
 200               lbTemperatureNow(ShowNo).Visible = True
                   
 210               If ShowNo Mod 2 = 0 Then
-220                   lbTemp(ShowNo).left = lbTemp(ShowNo - 1).left + 2760
-230                   lbTemp(ShowNo).top = lbTemp(ShowNo - 1).top
-240                   lbTemperatureNow(ShowNo).left = lbTemperatureNow(ShowNo - 1).left + 2760
-250                   lbTemperatureNow(ShowNo).top = lbTemperatureNow(ShowNo - 1).top
+220                   lbTemp(ShowNo).Left = lbTemp(ShowNo - 1).Left + 2760
+230                   lbTemp(ShowNo).Top = lbTemp(ShowNo - 1).Top
+240                   lbTemperatureNow(ShowNo).Left = lbTemperatureNow(ShowNo - 1).Left + 2760
+250                   lbTemperatureNow(ShowNo).Top = lbTemperatureNow(ShowNo - 1).Top
 260               Else
-270                   lbTemp(ShowNo).left = lbTemp(ShowNo - 2).left
-280                   lbTemp(ShowNo).top = lbTemp(ShowNo - 2).top + lbTemperatureNow(ShowNo - 2).Height + 20    '20230714 许志尧 缩小温度标签间隔高度为20增加更多标签显示
-290                   lbTemperatureNow(ShowNo).left = lbTemperatureNow(ShowNo - 2).left
-300                   lbTemperatureNow(ShowNo).top = lbTemperatureNow(ShowNo - 2).top + lbTemperatureNow(ShowNo - 2).Height + 20
+270                   lbTemp(ShowNo).Left = lbTemp(ShowNo - 2).Left
+280                   lbTemp(ShowNo).Top = lbTemp(ShowNo - 2).Top + lbTemperatureNow(ShowNo - 2).Height + 20    '20230714 许志尧 缩小温度标签间隔高度为20增加更多标签显示
+290                   lbTemperatureNow(ShowNo).Left = lbTemperatureNow(ShowNo - 2).Left
+300                   lbTemperatureNow(ShowNo).Top = lbTemperatureNow(ShowNo - 2).Top + lbTemperatureNow(ShowNo - 2).Height + 20
 310               End If
 320               If StHotControl.Set_HasSocketHardWare = 0 Or StHotControl.Set_SocketBlowFuncUsed = 0 Then
 330                   If InStr(StHotControl.Set_TCPortName(i), "AirHeat") > 0 And InStr(StHotControl.Set_TCPortName(i), "M") > 0 Then
@@ -34617,10 +34631,10 @@ On Error GoTo ErrorHandler
         
         lbESD(i).Visible = True
         lbESDNow(i).Visible = True
-        lbESD(i).left = lbESD(i - 1).left
-        lbESD(i).top = lbESD(i - 1).top + lbESDNow(i - 1).Height + 100
-        lbESDNow(i).left = lbESDNow(i - 1).left
-        lbESDNow(i).top = lbESDNow(i - 1).top + lbESDNow(i - 1).Height + 100
+        lbESD(i).Left = lbESD(i - 1).Left
+        lbESD(i).Top = lbESD(i - 1).Top + lbESDNow(i - 1).Height + 100
+        lbESDNow(i).Left = lbESDNow(i - 1).Left
+        lbESDNow(i).Top = lbESDNow(i - 1).Top + lbESDNow(i - 1).Height + 100
         
         If i > 3 Then
             lbESD(i).Caption = StESD.ESDName(2, i - 3)
@@ -34727,7 +34741,7 @@ Private Sub btnMenu_Click(Index As Integer)
     ElseIf Set_CutOffCompressedAirHas = 1 Then
         If Set_CutOffCompressedAirSetTime > 0 Then
             Call Timer_Reset(T_CutOffCompressedAirTime)
-            If BY(OY_Sys_CutOffCompressedAir).StateNow = 1 Then
+            If By(OY_Sys_CutOffCompressedAir).StateNow = 1 Then
                 Call SetOutput(OY_Sys_CutOffCompressedAir, 0)
                 Call ClearAlarmShow
             End If
@@ -34737,40 +34751,40 @@ Private Sub btnMenu_Click(Index As Integer)
     If Index = 0 Then
         
     ElseIf Index = 1 Then
-        frmBase.left = 0
-        frmBase.top = 500
+        frmBase.Left = 0
+        frmBase.Top = 500
         frmBase.Show
         DebugMainLoopFlag = 1
         Call ChangeFrmAutoRunBtnStatus(False)
     ElseIf Index = 2 Then
-        frmTest.left = 0
-        frmTest.top = 500
+        frmTest.Left = 0
+        frmTest.Top = 500
         frmTest.Show
         DebugMainLoopFlag = 1
         Call ChangeFrmAutoRunBtnStatus(False)
     ElseIf Index = 3 Then
-        frmAdv.left = 0
-        frmAdv.top = 500
+        frmAdv.Left = 0
+        frmAdv.Top = 500
         frmAdv.Show
         DebugMainLoopFlag = 1
         Call ChangeFrmAutoRunBtnStatus(False)
     ElseIf Index = 4 Then
-        frmDebug.left = 0
-        frmDebug.top = 500
+        frmDebug.Left = 0
+        frmDebug.Top = 500
         frmDebug.Show
         DebugMainLoopFlag = 1
         Call ChangeFrmAutoRunBtnStatus(False)
     ElseIf Index = 5 Then
-        frmIO.left = 0
-        frmIO.top = 500
+        frmIO.Left = 0
+        frmIO.Top = 500
         frmIO.Show
         DebugMainLoopFlag = 1
         Call WriteUserOptLog(70, 0)
         Call ChangeFrmAutoRunBtnStatus(False)
         'SystemStatus = 7
     ElseIf Index = 6 Then
-        frmReport.left = 0
-        frmReport.top = 500
+        frmReport.Left = 0
+        frmReport.Top = 500
         frmReport.Show
         DebugMainLoopFlag = 1
         Call ChangeFrmAutoRunBtnStatus(False)
@@ -34801,19 +34815,19 @@ Private Sub btnMenu_Click(Index As Integer)
                 Call GT_SetCardNo(3)
                 Call GT_Close
                 Call UpdateAppExitFlag(0)
-                BY(OY_Sys_RiGuangDeng).StateNow = 0
+                By(OY_Sys_RiGuangDeng).StateNow = 0
     '            BY(OY_Test_ARM1MotoLock).StateNow = 0
     '            BY(OY_Test_ARM2MotoLock).StateNow = 0
                 Call SetOutput(OY_Test_ARM1MotoLock, 0)
                 Call SetOutput(OY_Test_ARM2MotoLock, 0)
-                BY(OY_Sys_BigFan).StateNow = 0
-                BY(OY_Sys_RedLight).StateNow = 0
-                BY(OY_Sys_YellowLight).StateNow = 0
-                BY(OY_Sys_GreenLight).StateNow = 0
-                BY(OY_Sys_Buzzle).StateNow = 0
+                By(OY_Sys_BigFan).StateNow = 0
+                By(OY_Sys_RedLight).StateNow = 0
+                By(OY_Sys_YellowLight).StateNow = 0
+                By(OY_Sys_GreenLight).StateNow = 0
+                By(OY_Sys_Buzzle).StateNow = 0
                 
-                BY(OY_Sys_MotoServo3Power).StateNow = 0
-                BY(OY_Sys_MotoServo5Power).StateNow = 0
+                By(OY_Sys_MotoServo3Power).StateNow = 0
+                By(OY_Sys_MotoServo5Power).StateNow = 0
                 Call SetOutput(OY_Sys_Moto9Power, 0)
                 '测压机械手上若有料，不关闭真空泵
                 For i = 1 To StTestIC.SitesNum
@@ -34831,20 +34845,20 @@ Private Sub btnMenu_Click(Index As Integer)
 '                End If
                 
             
-                BY(OY_Sys_PowerOnLight).StateNow = 0
-                BY(OY_Sys_PowerOffLight).StateNow = 0
-                BY(OY_Sys_ResetLight).StateNow = 0
-                BY(OY_Sys_PauseLight).StateNow = 0
-                BY(OY_Sys_HomeLight).StateNow = 0
-                BY(OY_Sys_OneCycleLight).StateNow = 0
-                BY(OY_Sys_RetrayLight).StateNow = 0
-                BY(OY_Sys_SkipLight).StateNow = 0
-                BY(OY_Sys_CleanOutLight).StateNow = 0
-                BY(OY_Sys_TrayFeedLight).StateNow = 0
-                BY(OY_Sys_TrayEndLight).StateNow = 0
-                BY(OY_Sys_AlarmResetLight).StateNow = 0
-                BY(OY_Sys_CoverOpen).StateNow = 0
-                BY(OY_Sys_CoolantOpen).StateNow = 0   '20230706 许志尧 增加退出软件时关闭冷却气电磁阀
+                By(OY_Sys_PowerOnLight).StateNow = 0
+                By(OY_Sys_PowerOffLight).StateNow = 0
+                By(OY_Sys_ResetLight).StateNow = 0
+                By(OY_Sys_PauseLight).StateNow = 0
+                By(OY_Sys_HomeLight).StateNow = 0
+                By(OY_Sys_OneCycleLight).StateNow = 0
+                By(OY_Sys_RetrayLight).StateNow = 0
+                By(OY_Sys_SkipLight).StateNow = 0
+                By(OY_Sys_CleanOutLight).StateNow = 0
+                By(OY_Sys_TrayFeedLight).StateNow = 0
+                By(OY_Sys_TrayEndLight).StateNow = 0
+                By(OY_Sys_AlarmResetLight).StateNow = 0
+                By(OY_Sys_CoverOpen).StateNow = 0
+                By(OY_Sys_CoolantOpen).StateNow = 0   '20230706 许志尧 增加退出软件时关闭冷却气电磁阀
                 Call SetYOutput
                 '退出程序停止加热
                 StHotControl.TCHotStopFlag = 1
@@ -34857,7 +34871,7 @@ Private Sub btnMenu_Click(Index As Integer)
                 Call WriteUserOptLog(2, 0)
                 
                 '    '开始如果有就删除
-                If dir("D:\ChangChuan\Handler\" & MachineName & "\Config\Temp\" & StTestIC.TestICName & ".ini") <> "" Then
+                If Dir("D:\ChangChuan\Handler\" & MachineName & "\Config\Temp\" & StTestIC.TestICName & ".ini") <> "" Then
                     Kill "D:\ChangChuan\Handler\" & MachineName & "\Config\Temp\" & StTestIC.TestICName & ".ini"
                 End If
                 
@@ -34898,7 +34912,7 @@ Private Sub btnMenu_Click(Index As Integer)
                 If StHotControl.Set_HeatEn = 1 Then
                     StActionLoop.AppExitFlag = 1
                     StHotControl.TCHotStopFlag = 1
-                    StHotControl.status = 3
+                    StHotControl.Status = 3
                 Else
                     MainLoopFlag = 0
                     '20240322 王莹莹 主界面增加MTBA显示，推广430 1.9'退出前跟新MTBA数据
@@ -34912,8 +34926,8 @@ Private Sub btnMenu_Click(Index As Integer)
         End If
     ElseIf Index = 9 Then
         If UserInfo.UserCode = "gys" Then
-            frmGysSet.left = 0
-            frmGysSet.top = 500
+            frmGysSet.Left = 0
+            frmGysSet.Top = 500
             frmGysSet.Show
             DebugMainLoopFlag = 1
             Call ChangeFrmAutoRunBtnStatus(False)
@@ -34923,8 +34937,8 @@ Private Sub btnMenu_Click(Index As Integer)
         End If
     ElseIf Index = 10 Then
         If UserInfo.AuthList.OffSetEn = True Then
-            frmDebugForOffset.left = 0
-            frmDebugForOffset.top = 500
+            frmDebugForOffset.Left = 0
+            frmDebugForOffset.Top = 500
             frmDebugForOffset.Show
             DebugMainLoopFlag = 1
             Call ChangeFrmAutoRunBtnStatus(False)
@@ -35073,12 +35087,12 @@ Private Sub cmdRunMode_Click()
 90                    answer = MsgBox("您确定要修改运行模式信息吗？", vbExclamation + vbYesNo, "请确认")
 100                   If answer = vbYes Then
 110                       If Me.cobRunMode.ListIndex = 1 Then                 '20230315 梁子旋 推广 C6Q160 V8.1.5 221116 王莹莹 修复运行模式和启动模式实际切换不成功但显示错误问题
-120                           If (BY(V_Test_ARM1ZhenKong1).StateNow = 1 And BX(S_Test_ARM1YaLi1).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong2).StateNow = 1 And BX(S_Test_ARM1YaLi2).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong3).StateNow = 1 And BX(S_Test_ARM1YaLi3).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong4).StateNow = 1 And BX(S_Test_ARM1YaLi4).StateNow = 1) Or _
-                              (BY(V_Test_ARM1ZhenKong5).StateNow = 1 And BX(S_Test_ARM1YaLi5).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong6).StateNow = 1 And BX(S_Test_ARM1YaLi6).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong7).StateNow = 1 And BX(S_Test_ARM1YaLi7).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong8).StateNow = 1 And BX(S_Test_ARM1YaLi8).StateNow = 1) Then
+120                           If (By(V_Test_ARM1ZhenKong1).StateNow = 1 And BX(S_Test_ARM1YaLi1).StateNow = 1) Or (By(V_Test_ARM1ZhenKong2).StateNow = 1 And BX(S_Test_ARM1YaLi2).StateNow = 1) Or (By(V_Test_ARM1ZhenKong3).StateNow = 1 And BX(S_Test_ARM1YaLi3).StateNow = 1) Or (By(V_Test_ARM1ZhenKong4).StateNow = 1 And BX(S_Test_ARM1YaLi4).StateNow = 1) Or _
+                              (By(V_Test_ARM1ZhenKong5).StateNow = 1 And BX(S_Test_ARM1YaLi5).StateNow = 1) Or (By(V_Test_ARM1ZhenKong6).StateNow = 1 And BX(S_Test_ARM1YaLi6).StateNow = 1) Or (By(V_Test_ARM1ZhenKong7).StateNow = 1 And BX(S_Test_ARM1YaLi7).StateNow = 1) Or (By(V_Test_ARM1ZhenKong8).StateNow = 1 And BX(S_Test_ARM1YaLi8).StateNow = 1) Then
 130                               MsgBox "ARM1上有料，请拿走机械手上所有的料后再切换模式", vbOKOnly + vbExclamation
 140                               flag = 1
-150                           ElseIf (BY(V_Test_ARM2ZhenKong1).StateNow = 1 And BX(S_Test_ARM2YaLi1).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong2).StateNow = 1 And BX(S_Test_ARM2YaLi2).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong3).StateNow = 1 And BX(S_Test_ARM2YaLi3).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong4).StateNow = 1 And BX(S_Test_ARM2YaLi4).StateNow = 1) Or _
-                              (BY(V_Test_ARM2ZhenKong5).StateNow = 1 And BX(S_Test_ARM2YaLi5).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong6).StateNow = 1 And BX(S_Test_ARM2YaLi6).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong7).StateNow = 1 And BX(S_Test_ARM2YaLi7).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong8).StateNow = 1 And BX(S_Test_ARM2YaLi8).StateNow = 1) Then
+150                           ElseIf (By(V_Test_ARM2ZhenKong1).StateNow = 1 And BX(S_Test_ARM2YaLi1).StateNow = 1) Or (By(V_Test_ARM2ZhenKong2).StateNow = 1 And BX(S_Test_ARM2YaLi2).StateNow = 1) Or (By(V_Test_ARM2ZhenKong3).StateNow = 1 And BX(S_Test_ARM2YaLi3).StateNow = 1) Or (By(V_Test_ARM2ZhenKong4).StateNow = 1 And BX(S_Test_ARM2YaLi4).StateNow = 1) Or _
+                              (By(V_Test_ARM2ZhenKong5).StateNow = 1 And BX(S_Test_ARM2YaLi5).StateNow = 1) Or (By(V_Test_ARM2ZhenKong6).StateNow = 1 And BX(S_Test_ARM2YaLi6).StateNow = 1) Or (By(V_Test_ARM2ZhenKong7).StateNow = 1 And BX(S_Test_ARM2YaLi7).StateNow = 1) Or (By(V_Test_ARM2ZhenKong8).StateNow = 1 And BX(S_Test_ARM2YaLi8).StateNow = 1) Then
 160                               MsgBox "ARM2上有料，请拿走机械手上所有的料后再切换模式", vbOKOnly + vbExclamation
 170                               flag = 1
 180                           ElseIf BX(S_InputArm_QuLiaoYaLi1).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi2).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi3).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi4).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi5).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi6).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi7).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi8).StateNow = 1 Then
@@ -35089,12 +35103,12 @@ Private Sub cmdRunMode_Click()
 230                               flag = 1
 240                           End If
 250                       ElseIf Me.cobRunMode.ListIndex = 2 Then
-260                           If (BY(V_Test_ARM1ZhenKong1).StateNow = 1 And BX(S_Test_ARM1YaLi1).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong2).StateNow = 1 And BX(S_Test_ARM1YaLi2).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong3).StateNow = 1 And BX(S_Test_ARM1YaLi3).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong4).StateNow = 1 And BX(S_Test_ARM1YaLi4).StateNow = 1) Or _
-                              (BY(V_Test_ARM1ZhenKong5).StateNow = 1 And BX(S_Test_ARM1YaLi5).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong6).StateNow = 1 And BX(S_Test_ARM1YaLi6).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong7).StateNow = 1 And BX(S_Test_ARM1YaLi7).StateNow = 1) Or (BY(V_Test_ARM1ZhenKong8).StateNow = 1 And BX(S_Test_ARM1YaLi8).StateNow = 1) Then
+260                           If (By(V_Test_ARM1ZhenKong1).StateNow = 1 And BX(S_Test_ARM1YaLi1).StateNow = 1) Or (By(V_Test_ARM1ZhenKong2).StateNow = 1 And BX(S_Test_ARM1YaLi2).StateNow = 1) Or (By(V_Test_ARM1ZhenKong3).StateNow = 1 And BX(S_Test_ARM1YaLi3).StateNow = 1) Or (By(V_Test_ARM1ZhenKong4).StateNow = 1 And BX(S_Test_ARM1YaLi4).StateNow = 1) Or _
+                              (By(V_Test_ARM1ZhenKong5).StateNow = 1 And BX(S_Test_ARM1YaLi5).StateNow = 1) Or (By(V_Test_ARM1ZhenKong6).StateNow = 1 And BX(S_Test_ARM1YaLi6).StateNow = 1) Or (By(V_Test_ARM1ZhenKong7).StateNow = 1 And BX(S_Test_ARM1YaLi7).StateNow = 1) Or (By(V_Test_ARM1ZhenKong8).StateNow = 1 And BX(S_Test_ARM1YaLi8).StateNow = 1) Then
 270                               MsgBox "ARM1上有料，请拿走机械手上所有的料后再切换模式", vbOKOnly + vbExclamation
 280                               flag = 1
-290                           ElseIf (BY(V_Test_ARM2ZhenKong1).StateNow = 1 And BX(S_Test_ARM2YaLi1).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong2).StateNow = 1 And BX(S_Test_ARM2YaLi2).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong3).StateNow = 1 And BX(S_Test_ARM2YaLi3).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong4).StateNow = 1 And BX(S_Test_ARM2YaLi4).StateNow = 1) Or _
-                              (BY(V_Test_ARM2ZhenKong5).StateNow = 1 And BX(S_Test_ARM2YaLi5).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong6).StateNow = 1 And BX(S_Test_ARM2YaLi6).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong7).StateNow = 1 And BX(S_Test_ARM2YaLi7).StateNow = 1) Or (BY(V_Test_ARM2ZhenKong8).StateNow = 1 And BX(S_Test_ARM2YaLi8).StateNow = 1) Then
+290                           ElseIf (By(V_Test_ARM2ZhenKong1).StateNow = 1 And BX(S_Test_ARM2YaLi1).StateNow = 1) Or (By(V_Test_ARM2ZhenKong2).StateNow = 1 And BX(S_Test_ARM2YaLi2).StateNow = 1) Or (By(V_Test_ARM2ZhenKong3).StateNow = 1 And BX(S_Test_ARM2YaLi3).StateNow = 1) Or (By(V_Test_ARM2ZhenKong4).StateNow = 1 And BX(S_Test_ARM2YaLi4).StateNow = 1) Or _
+                              (By(V_Test_ARM2ZhenKong5).StateNow = 1 And BX(S_Test_ARM2YaLi5).StateNow = 1) Or (By(V_Test_ARM2ZhenKong6).StateNow = 1 And BX(S_Test_ARM2YaLi6).StateNow = 1) Or (By(V_Test_ARM2ZhenKong7).StateNow = 1 And BX(S_Test_ARM2YaLi7).StateNow = 1) Or (By(V_Test_ARM2ZhenKong8).StateNow = 1 And BX(S_Test_ARM2YaLi8).StateNow = 1) Then
 300                               MsgBox "ARM2上有料，请拿走机械手上所有的料后再切换模式", vbOKOnly + vbExclamation
 310                               flag = 1
 320                           ElseIf BX(S_InputArm_QuLiaoYaLi1).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi2).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi3).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi4).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi5).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi6).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi7).StateNow = 1 Or BX(S_InputArm_QuLiaoYaLi8).StateNow = 1 Then
@@ -35740,7 +35754,7 @@ On Error GoTo ErrorHandler
             Call SystemStopShow
             Me.lbSystemStatus = "停止"
             Call Timer_Reset(T_CheckHeatStop)
-            BY(OY_Sys_GreenLight).StateNow = 0
+            By(OY_Sys_GreenLight).StateNow = 0
             Me.lbSystemStatus.ForeColor = &H0&
 
             Me.cmdStartRunMode.Enabled = True
@@ -35774,7 +35788,7 @@ On Error GoTo ErrorHandler
                 frmAutoRun.btnAlarmConfirm.BackColor = &H8000000F
                 frmAutoRun.btnAlarmRetry.BackColor = &H8000000F
             End If
-            BY(OY_Sys_DoorLock).StateNow = 0
+            By(OY_Sys_DoorLock).StateNow = 0
             If StActionLoop.CleanOutFlag = 1 Then
                 'StButtonLight.TrayFeed = 2
                 StActionLoop.CleanOutFlag = 0
@@ -35806,19 +35820,19 @@ On Error GoTo ErrorHandler
         And StActionLoop.UnloadTray3Flag = 0 And StActionLoop.TrayArmFlag = 0 Then
             If CheckMotoMoving = 0 Then
                 If StErrorTowerLight.GreenLightEn = 1 Then
-                    BY(OY_Sys_GreenLight).StateNow = 1
+                    By(OY_Sys_GreenLight).StateNow = 1
                 Else
-                    BY(OY_Sys_GreenLight).StateNow = 0
+                    By(OY_Sys_GreenLight).StateNow = 0
                 End If
                 If StErrorTowerLight.YellowLightEn = 1 Then
-                    BY(OY_Sys_YellowLight).StateNow = 1
+                    By(OY_Sys_YellowLight).StateNow = 1
                 Else
-                    BY(OY_Sys_YellowLight).StateNow = 0
+                    By(OY_Sys_YellowLight).StateNow = 0
                 End If
                 If StErrorTowerLight.RedLightEn = 1 Then
-                    BY(OY_Sys_RedLight).StateNow = 1
+                    By(OY_Sys_RedLight).StateNow = 1
                 Else
-                    BY(OY_Sys_RedLight).StateNow = 0
+                    By(OY_Sys_RedLight).StateNow = 0
                 End If
 
                 Me.lbSystemStatus = "异常停止"
@@ -35830,7 +35844,7 @@ On Error GoTo ErrorHandler
                 Me.btnMenu(3).Enabled = True
                 Me.btnMenu(2).Enabled = True            '20211214  李俊辉  异常停止显示测试设置界面
                 Call SaveTrayWorkRecord
-                BY(OY_Sys_DoorLock).StateNow = 0
+                By(OY_Sys_DoorLock).StateNow = 0
                 StButtonLight.Start = 0
                 StButtonLight.AlarmReset = 2
                 If AlarmMsgList(AlarmList(StAlarm.ShowAlarmNo).AlarmNo).SkipEn = 1 Then
@@ -35996,19 +36010,19 @@ On Error GoTo ErrorHandler
     Me.lbEPCur.Caption = StEPCom.CheckEPGetCurValue(1)
     Me.lbCleanPadTimes.Caption = "AutoClean/CleanPad:" & StDCParam.CleanICUseNumNow
 
-    If BY(OY_Sys_RedLight).StateNow = 1 Then
+    If By(OY_Sys_RedLight).StateNow = 1 Then
         picSystemStatus(0).BackColor = &HFF&
     Else
         picSystemStatus(0).BackColor = &H8000000F
     End If
 
-    If BY(OY_Sys_YellowLight).StateNow = 1 Then
+    If By(OY_Sys_YellowLight).StateNow = 1 Then
         picSystemStatus(1).BackColor = &HFFFF&
     Else
         picSystemStatus(1).BackColor = &H8000000F
     End If
 
-    If BY(OY_Sys_GreenLight).StateNow = 1 Then
+    If By(OY_Sys_GreenLight).StateNow = 1 Then
         picSystemStatus(2).BackColor = &HFF00&
     Else
         picSystemStatus(2).BackColor = &H8000000F
@@ -36442,7 +36456,7 @@ On Error GoTo ErrorHandler
     If StOutputArmParam.Set_chkKeyboardVisibleEn = 0 Then
         Me.chkKeyboard.Visible = False '20250318 梁子旋 客户只要在数据库开关功能，不要在界面显示
     End If
-    Me.chkKeyboard.value = StQRCode.Set_BatchOrderQRInputMode
+    Me.chkKeyboard.Value = StQRCode.Set_BatchOrderQRInputMode
     If UserInfo.Userlevel > 1 Then
         Me.chkKeyboard.Enabled = True
     Else
@@ -36452,10 +36466,10 @@ On Error GoTo ErrorHandler
         ProductName1 = Mid(StTestIC.TestICName, 1, 45)
         ProductName2 = Mid(StTestIC.TestICName, 46, Len(StTestIC.TestICName))
         ProductNameComplete = ProductName1 & vbCrLf & ProductName2
-        Me.lbProductName.top = 150 '250115 钟海 优化主界面显示不整齐问题
+        Me.lbProductName.Top = 150 '250115 钟海 优化主界面显示不整齐问题
     Else
         ProductNameComplete = StTestIC.TestICName
-        Me.lbProductName.top = 240 '250115 钟海 优化主界面显示不整齐问题
+        Me.lbProductName.Top = 240 '250115 钟海 优化主界面显示不整齐问题
     End If
     Me.lbProductName.Caption = ProductNameComplete
     Me.lbSLTCustom.Caption = StTestIC.Customer
@@ -36478,11 +36492,11 @@ On Error GoTo ErrorHandler
     Me.txtOPID.Text = StTestIC.TestOPID
     
     If SystemRetestFlag = 0 Then
-        Me.FTRTflag(0).value = Checked
-        Me.FTRTflag(1).value = Unchecked
+        Me.FTRTflag(0).Value = Checked
+        Me.FTRTflag(1).Value = Unchecked
     Else
-        Me.FTRTflag(0).value = Unchecked
-        Me.FTRTflag(1).value = Checked
+        Me.FTRTflag(0).Value = Unchecked
+        Me.FTRTflag(1).Value = Checked
     End If
     
     Me.cobRunMode.ListIndex = StTestArmParam.Set_RunMode - 1
@@ -36927,15 +36941,15 @@ On Error GoTo ErrorHandler
         StOutputArmParam.SampleTrayFlag = 0
         StOutputArmParam.SampleCurrentNum = 0
         StOutputArmParam.SampleCurrentCycleNum = 0
-        Me.chkSample.value = 0
+        Me.chkSample.Value = 0
         Call UpdateBaseParambyCode("SampleTrayFlag", StOutputArmParam.SampleTrayFlag)
         Call UpdateBaseParambyCode("SampleCurrentNum", StOutputArmParam.SampleCurrentNum)
     Else
         Me.chkSample.Visible = True
         If StOutputArmParam.SampleTrayFlag = 1 Then
-            Me.chkSample.value = 1
+            Me.chkSample.Value = 1
         Else
-            Me.chkSample.value = 0
+            Me.chkSample.Value = 0
         End If
     End If
     
@@ -37200,11 +37214,11 @@ Private Sub stCount_Click(PreviousTab As Integer)
 330           ElseIf stCount.Tab = 8 Then
                   '20220617 高超杰 显示新建批次数量输入框
 340               If StTestIC.Set_CheckNewLotICNumEn = 1 Then
-350                   Me.CkICNumEn.value = 1
+350                   Me.CkICNumEn.Value = 1
 360                   Me.NewLotICNum.Visible = True
 370                   Me.NewLotICNum.Text = StTestIC.Set_NewLotICNum
 380               Else
-390                   Me.CkICNumEn.value = 0
+390                   Me.CkICNumEn.Value = 0
 400                   Me.NewLotICNum.Visible = False
 410               End If
 420            ElseIf stCount.Tab = 10 Then
@@ -38826,9 +38840,9 @@ On Error GoTo ErrorHandler
             Me.txtTrayBin(i).Height = 750
         Next
         For i = 3 To 5
-            Me.lbTrayBin(i).top = 2300
+            Me.lbTrayBin(i).Top = 2300
             Me.lbTrayBin(i).Height = 240
-            Me.txtTrayBin(i).top = 2640
+            Me.txtTrayBin(i).Top = 2640
             Me.txtTrayBin(i).Height = 600
         Next
         For i = 7 To 9
@@ -38887,9 +38901,9 @@ On Error GoTo ErrorHandler
         Next
         For i = 3 To 5
             Me.lbTrayBin(i).Caption = "Fix" & i - 2
-            Me.lbTrayBin(i).top = 2550
+            Me.lbTrayBin(i).Top = 2550
             Me.lbTrayBin(i).Height = 240
-            Me.txtTrayBin(i).top = 2880
+            Me.txtTrayBin(i).Top = 2880
             Me.txtTrayBin(i).Height = 975
             Me.txtTrayBin(i).Font.Size = 11
             If i = 3 Then
@@ -39411,18 +39425,18 @@ On Error GoTo ErrorHandler
             .Height = 450
             .Width = 495
             If Rows = 2 Then
-                .top = VGap * (i Mod 2 + 1) + (i Mod 2) * 450 + VGap * 2 / 3
+                .Top = VGap * (i Mod 2 + 1) + (i Mod 2) * 450 + VGap * 2 / 3
             Else
-                .top = 1890 / 2
+                .Top = 1890 / 2
             End If
             If Rows = 2 Then
                 If StTestIC.SitesNum < 16 Then
-                    .left = HGap * (i \ 2 + 1) + 495 * (i \ 2)
+                    .Left = HGap * (i \ 2 + 1) + 495 * (i \ 2)
                 Else
-                    .left = HGap * (i \ 2 + 1) + 495 * (i \ 2)
+                    .Left = HGap * (i \ 2 + 1) + 495 * (i \ 2)
                 End If
             Else
-                .left = HGap * (i + 1) + 495 * i
+                .Left = HGap * (i + 1) + 495 * i
             End If
             .Visible = True
             If TIF(i + 1).SMStationIndex = 0 Then
@@ -39447,11 +39461,11 @@ On Error GoTo ErrorHandler
         With lbStationName(i)
             .Height = 285
             .Width = 330
-            .top = labStationSelect(i).top - 50 - 285
+            .Top = labStationSelect(i).Top - 50 - 285
             If StTestIC.SitesNum < 16 Then
-                .left = labStationSelect(i).left + (495 - 330) / 2
+                .Left = labStationSelect(i).Left + (495 - 330) / 2
             Else
-                .left = labStationSelect(i).left + (495 - 330) / 2
+                .Left = labStationSelect(i).Left + (495 - 330) / 2
             End If
             .Visible = True
             .Caption = GetStationName(i + 1)
@@ -39459,8 +39473,8 @@ On Error GoTo ErrorHandler
     Next
     
     For i = 0 To lbStationName.UBound
-        Me.lbStationName(i).left = Me.lbStationName(i).left + 300
-        Me.labStationSelect(i).left = Me.labStationSelect(i).left + 300
+        Me.lbStationName(i).Left = Me.lbStationName(i).Left + 300
+        Me.labStationSelect(i).Left = Me.labStationSelect(i).Left + 300
     Next
 Exit Sub
 ErrorHandler:
@@ -39587,18 +39601,18 @@ On Error GoTo ErrorHandler
             Me.lbTestBinValue_8Site(i).Visible = True
             Me.lbStationTestStatus_8Site(i).Visible = True
         Next
-        Me.lbTestBinValue_8Site(0).left = 120
-        Me.lbTestBinValue_8Site(0).top = 720
+        Me.lbTestBinValue_8Site(0).Left = 120
+        Me.lbTestBinValue_8Site(0).Top = 720
         For i = 1 To 7
-            Me.lbTestBinValue_8Site(i).left = Me.lbTestBinValue_8Site(0).left + (i \ 2) * 960
-            Me.lbTestBinValue_8Site(i).top = Me.lbTestBinValue_8Site(0).top + (i Mod 2) * 840
+            Me.lbTestBinValue_8Site(i).Left = Me.lbTestBinValue_8Site(0).Left + (i \ 2) * 960
+            Me.lbTestBinValue_8Site(i).Top = Me.lbTestBinValue_8Site(0).Top + (i Mod 2) * 840
         Next
         
-        Me.lbTestBinValue_8Site(8).left = 120
-        Me.lbTestBinValue_8Site(8).top = 720
+        Me.lbTestBinValue_8Site(8).Left = 120
+        Me.lbTestBinValue_8Site(8).Top = 720
         For i = 9 To 15
-            Me.lbTestBinValue_8Site(i).left = Me.lbTestBinValue_8Site(8).left + ((i - 8) \ 2) * 960
-            Me.lbTestBinValue_8Site(i).top = Me.lbTestBinValue_8Site(8).top + ((i - 8) Mod 2) * 840
+            Me.lbTestBinValue_8Site(i).Left = Me.lbTestBinValue_8Site(8).Left + ((i - 8) \ 2) * 960
+            Me.lbTestBinValue_8Site(i).Top = Me.lbTestBinValue_8Site(8).Top + ((i - 8) Mod 2) * 840
         Next
 
     ElseIf StTestIC.SiteType = 14 Or StTestIC.SiteType = 22 Then
@@ -39611,31 +39625,31 @@ On Error GoTo ErrorHandler
             Me.lbStationTestStatus_8Site(i + 8).Visible = True
         Next
         If StTestIC.SiteType = 14 Then
-            Me.lbTestBinValue_8Site(0).top = 1080
-            Me.lbTestBinValue_8Site(0).left = 120
+            Me.lbTestBinValue_8Site(0).Top = 1080
+            Me.lbTestBinValue_8Site(0).Left = 120
             For i = 1 To 3
-                Me.lbTestBinValue_8Site(i).left = Me.lbTestBinValue_8Site(0).left + i * 960
-                Me.lbTestBinValue_8Site(i).top = Me.lbTestBinValue_8Site(0).top
+                Me.lbTestBinValue_8Site(i).Left = Me.lbTestBinValue_8Site(0).Left + i * 960
+                Me.lbTestBinValue_8Site(i).Top = Me.lbTestBinValue_8Site(0).Top
             Next
-            Me.lbTestBinValue_8Site(8).top = 1080
-            Me.lbTestBinValue_8Site(8).left = 120
+            Me.lbTestBinValue_8Site(8).Top = 1080
+            Me.lbTestBinValue_8Site(8).Left = 120
             For i = 9 To 11
-                Me.lbTestBinValue_8Site(i).left = Me.lbTestBinValue_8Site(0).left + (i - 8) * 960
-                Me.lbTestBinValue_8Site(i).top = Me.lbTestBinValue_8Site(0).top
+                Me.lbTestBinValue_8Site(i).Left = Me.lbTestBinValue_8Site(0).Left + (i - 8) * 960
+                Me.lbTestBinValue_8Site(i).Top = Me.lbTestBinValue_8Site(0).Top
             Next
         ElseIf StTestIC.SiteType = 22 Then
-            Me.lbTestBinValue_8Site(0).top = 720
-            Me.lbTestBinValue_8Site(0).left = 840
+            Me.lbTestBinValue_8Site(0).Top = 720
+            Me.lbTestBinValue_8Site(0).Left = 840
             For i = 1 To 3
-                Me.lbTestBinValue_8Site(i).top = Me.lbTestBinValue_8Site(0).top + (i Mod 2) * 840
-                Me.lbTestBinValue_8Site(i).left = Me.lbTestBinValue_8Site(0).left + (i \ 2) * 1440
+                Me.lbTestBinValue_8Site(i).Top = Me.lbTestBinValue_8Site(0).Top + (i Mod 2) * 840
+                Me.lbTestBinValue_8Site(i).Left = Me.lbTestBinValue_8Site(0).Left + (i \ 2) * 1440
             Next
             
-            Me.lbTestBinValue_8Site(8).top = 720
-            Me.lbTestBinValue_8Site(8).left = 840
+            Me.lbTestBinValue_8Site(8).Top = 720
+            Me.lbTestBinValue_8Site(8).Left = 840
             For i = 9 To 11
-                Me.lbTestBinValue_8Site(i).top = Me.lbTestBinValue_8Site(8).top + ((i - 8) Mod 2) * 840
-                Me.lbTestBinValue_8Site(i).left = Me.lbTestBinValue_8Site(8).left + ((i - 8) \ 2) * 1440
+                Me.lbTestBinValue_8Site(i).Top = Me.lbTestBinValue_8Site(8).Top + ((i - 8) Mod 2) * 840
+                Me.lbTestBinValue_8Site(i).Left = Me.lbTestBinValue_8Site(8).Left + ((i - 8) \ 2) * 1440
             Next
         End If
         
@@ -39649,15 +39663,15 @@ On Error GoTo ErrorHandler
             Me.lbStationTestStatus_8Site(i + 8).Visible = True
         Next
         
-        Me.lbTestBinValue_8Site(0).top = 1080
-        Me.lbTestBinValue_8Site(0).left = 840
-        Me.lbTestBinValue_8Site(1).top = Me.lbTestBinValue_8Site(0).top
-        Me.lbTestBinValue_8Site(1).left = Me.lbTestBinValue_8Site(0).left + 1440
+        Me.lbTestBinValue_8Site(0).Top = 1080
+        Me.lbTestBinValue_8Site(0).Left = 840
+        Me.lbTestBinValue_8Site(1).Top = Me.lbTestBinValue_8Site(0).Top
+        Me.lbTestBinValue_8Site(1).Left = Me.lbTestBinValue_8Site(0).Left + 1440
         
-        Me.lbTestBinValue_8Site(8).top = 1080
-        Me.lbTestBinValue_8Site(8).left = 840
-        Me.lbTestBinValue_8Site(9).top = Me.lbTestBinValue_8Site(8).top
-        Me.lbTestBinValue_8Site(9).left = Me.lbTestBinValue_8Site(8).left + 1440
+        Me.lbTestBinValue_8Site(8).Top = 1080
+        Me.lbTestBinValue_8Site(8).Left = 840
+        Me.lbTestBinValue_8Site(9).Top = Me.lbTestBinValue_8Site(8).Top
+        Me.lbTestBinValue_8Site(9).Left = Me.lbTestBinValue_8Site(8).Left + 1440
     ElseIf StTestIC.SiteType = 11 Then          'xh '230920 林钊  推广C6800C_V1.0性能提升1*1工位模式代码
         For i = 0 To 0
             Me.lbSiteName_8Site(i).Visible = True
@@ -39668,18 +39682,18 @@ On Error GoTo ErrorHandler
             Me.lbStationTestStatus_8Site(i + 8).Visible = True
         Next
         
-        Me.lbTestBinValue_8Site(0).top = 1080
-        Me.lbTestBinValue_8Site(0).left = 1840
+        Me.lbTestBinValue_8Site(0).Top = 1080
+        Me.lbTestBinValue_8Site(0).Left = 1840
 
         
-        Me.lbTestBinValue_8Site(8).top = 1080
-        Me.lbTestBinValue_8Site(8).left = 1840
+        Me.lbTestBinValue_8Site(8).Top = 1080
+        Me.lbTestBinValue_8Site(8).Left = 1840
     End If
     For i = 0 To 15
-        Me.lbSiteName_8Site(i).top = Me.lbTestBinValue_8Site(i).top - 360
-        Me.lbSiteName_8Site(i).left = Me.lbTestBinValue_8Site(i).left
-        Me.lbStationTestStatus_8Site(i).top = Me.lbTestBinValue_8Site(i).top
-        Me.lbStationTestStatus_8Site(i).left = Me.lbTestBinValue_8Site(i).left + 480
+        Me.lbSiteName_8Site(i).Top = Me.lbTestBinValue_8Site(i).Top - 360
+        Me.lbSiteName_8Site(i).Left = Me.lbTestBinValue_8Site(i).Left
+        Me.lbStationTestStatus_8Site(i).Top = Me.lbTestBinValue_8Site(i).Top
+        Me.lbStationTestStatus_8Site(i).Left = Me.lbTestBinValue_8Site(i).Left + 480
     Next
 Exit Sub
 ErrorHandler:
@@ -39717,13 +39731,13 @@ On Error GoTo ErrorHandler
     For i = 0 To 79
         With Me.lbStationBinStatus(i)
             .Width = Me.lbStationBinStatus(0).Height
-            .left = Me.lbStationBinStatus(0).left + (i Mod 20) * 310
+            .Left = Me.lbStationBinStatus(0).Left + (i Mod 20) * 310
         End With
     Next
     For i = 160 To 239
         With Me.lbStationBinStatus(i)
             .Width = Me.lbStationBinStatus(0).Height
-            .left = Me.lbStationBinStatus(160).left + (i Mod 20) * 310
+            .Left = Me.lbStationBinStatus(160).Left + (i Mod 20) * 310
         End With
     Next
 Exit Sub
@@ -39785,12 +39799,12 @@ On Error GoTo ErrorHandler
             Me.txtSocketID(i).Visible = True
             Me.txtPackage(i).Visible = True
             Me.txtSocketContactNum(i).Visible = True
-            Me.txtSocketID(i).top = Me.txtSocketID(0).top + i * 300
-            Me.txtSocketID(i).left = Me.txtSocketID(0).left
-            Me.txtPackage(i).top = Me.txtPackage(0).top + i * 300
-            Me.txtPackage(i).left = Me.txtPackage(0).left
-            Me.txtSocketContactNum(i).top = Me.txtSocketContactNum(0).top + i * 300
-            Me.txtSocketContactNum(i).left = Me.txtSocketContactNum(0).left
+            Me.txtSocketID(i).Top = Me.txtSocketID(0).Top + i * 300
+            Me.txtSocketID(i).Left = Me.txtSocketID(0).Left
+            Me.txtPackage(i).Top = Me.txtPackage(0).Top + i * 300
+            Me.txtPackage(i).Left = Me.txtPackage(0).Left
+            Me.txtSocketContactNum(i).Top = Me.txtSocketContactNum(0).Top + i * 300
+            Me.txtSocketContactNum(i).Left = Me.txtSocketContactNum(0).Left
             
         Next
    ElseIf StTestIC.SiteType = 24 Then
@@ -39798,23 +39812,23 @@ On Error GoTo ErrorHandler
             Me.txtSocketID(i).Visible = True
             Me.txtPackage(i).Visible = True
             Me.txtSocketContactNum(i).Visible = True
-            Me.txtSocketID(i).top = Me.txtSocketID(0).top + i * 350
-            Me.txtSocketID(i).left = Me.txtSocketID(0).left
-            Me.txtPackage(i).top = Me.txtPackage(0).top + i * 350
-            Me.txtPackage(i).left = Me.txtPackage(0).left
-            Me.txtSocketContactNum(i).top = Me.txtSocketContactNum(0).top + i * 350
-            Me.txtSocketContactNum(i).left = Me.txtSocketContactNum(0).left
+            Me.txtSocketID(i).Top = Me.txtSocketID(0).Top + i * 350
+            Me.txtSocketID(i).Left = Me.txtSocketID(0).Left
+            Me.txtPackage(i).Top = Me.txtPackage(0).Top + i * 350
+            Me.txtPackage(i).Left = Me.txtPackage(0).Left
+            Me.txtSocketContactNum(i).Top = Me.txtSocketContactNum(0).Top + i * 350
+            Me.txtSocketContactNum(i).Left = Me.txtSocketContactNum(0).Left
         Next
         For i = 8 To 11
             Me.txtSocketID(i).Visible = True
             Me.txtPackage(i).Visible = True
             Me.txtSocketContactNum(i).Visible = True
-            Me.txtSocketID(i).top = Me.txtSocketID(0).top + (i - 4) * 350
-            Me.txtSocketID(i).left = Me.txtSocketID(0).left
-            Me.txtPackage(i).top = Me.txtPackage(0).top + (i - 4) * 350
-            Me.txtPackage(i).left = Me.txtPackage(0).left
-            Me.txtSocketContactNum(i).top = Me.txtSocketContactNum(0).top + (i - 4) * 350
-            Me.txtSocketContactNum(i).left = Me.txtSocketContactNum(0).left
+            Me.txtSocketID(i).Top = Me.txtSocketID(0).Top + (i - 4) * 350
+            Me.txtSocketID(i).Left = Me.txtSocketID(0).Left
+            Me.txtPackage(i).Top = Me.txtPackage(0).Top + (i - 4) * 350
+            Me.txtPackage(i).Left = Me.txtPackage(0).Left
+            Me.txtSocketContactNum(i).Top = Me.txtSocketContactNum(0).Top + (i - 4) * 350
+            Me.txtSocketContactNum(i).Left = Me.txtSocketContactNum(0).Left
             
         Next
    
@@ -39823,23 +39837,23 @@ On Error GoTo ErrorHandler
             Me.txtSocketID(i).Visible = True
             Me.txtPackage(i).Visible = True
             Me.txtSocketContactNum(i).Visible = True
-            Me.txtSocketID(i).top = Me.txtSocketID(0).top + i * 350
-            Me.txtSocketID(i).left = Me.txtSocketID(0).left
-            Me.txtPackage(i).top = Me.txtPackage(0).top + i * 350
-            Me.txtPackage(i).left = Me.txtPackage(0).left
-            Me.txtSocketContactNum(i).top = Me.txtSocketContactNum(0).top + i * 350
-            Me.txtSocketContactNum(i).left = Me.txtSocketContactNum(0).left
+            Me.txtSocketID(i).Top = Me.txtSocketID(0).Top + i * 350
+            Me.txtSocketID(i).Left = Me.txtSocketID(0).Left
+            Me.txtPackage(i).Top = Me.txtPackage(0).Top + i * 350
+            Me.txtPackage(i).Left = Me.txtPackage(0).Left
+            Me.txtSocketContactNum(i).Top = Me.txtSocketContactNum(0).Top + i * 350
+            Me.txtSocketContactNum(i).Left = Me.txtSocketContactNum(0).Left
         
         For i = 8 To 9
             Me.txtSocketID(i).Visible = True
             Me.txtPackage(i).Visible = True
             Me.txtSocketContactNum(i).Visible = True
-            Me.txtSocketID(i).top = Me.txtSocketID(0).top + (i - 6) * 350
-            Me.txtSocketID(i).left = Me.txtSocketID(0).left
-            Me.txtPackage(i).top = Me.txtPackage(0).top + (i - 6) * 350
-            Me.txtPackage(i).left = Me.txtPackage(0).left
-            Me.txtSocketContactNum(i).top = Me.txtSocketContactNum(0).top + (i - 6) * 350
-            Me.txtSocketContactNum(i).left = Me.txtSocketContactNum(0).left
+            Me.txtSocketID(i).Top = Me.txtSocketID(0).Top + (i - 6) * 350
+            Me.txtSocketID(i).Left = Me.txtSocketID(0).Left
+            Me.txtPackage(i).Top = Me.txtPackage(0).Top + (i - 6) * 350
+            Me.txtPackage(i).Left = Me.txtPackage(0).Left
+            Me.txtSocketContactNum(i).Top = Me.txtSocketContactNum(0).Top + (i - 6) * 350
+            Me.txtSocketContactNum(i).Left = Me.txtSocketContactNum(0).Left
             
         Next
    ElseIf StTestIC.SiteType = 12 Then
@@ -39847,12 +39861,12 @@ On Error GoTo ErrorHandler
             Me.txtSocketID(i).Visible = True
             Me.txtPackage(i).Visible = True
             Me.txtSocketContactNum(i).Visible = True
-            Me.txtSocketID(i).top = Me.txtSocketID(0).top + (i - 7) * 350
-            Me.txtSocketID(i).left = Me.txtSocketID(0).left
-            Me.txtPackage(i).top = Me.txtPackage(0).top + (i - 7) * 350
-            Me.txtPackage(i).left = Me.txtPackage(0).left
-            Me.txtSocketContactNum(i).top = Me.txtSocketContactNum(0).top + (i - 7) * 350
-            Me.txtSocketContactNum(i).left = Me.txtSocketContactNum(0).left
+            Me.txtSocketID(i).Top = Me.txtSocketID(0).Top + (i - 7) * 350
+            Me.txtSocketID(i).Left = Me.txtSocketID(0).Left
+            Me.txtPackage(i).Top = Me.txtPackage(0).Top + (i - 7) * 350
+            Me.txtPackage(i).Left = Me.txtPackage(0).Left
+            Me.txtSocketContactNum(i).Top = Me.txtSocketContactNum(0).Top + (i - 7) * 350
+            Me.txtSocketContactNum(i).Left = Me.txtSocketContactNum(0).Left
             
    End If
     
@@ -39917,7 +39931,7 @@ On Error GoTo ErrorHandler
                
                 Dim TempEsdStr, GetCRCstr, CalcCRCstr As String
                
-                TempEsdStr = left(ESDStr1, Len(ESDStr1) - 6)     '临时ESD1的值
+                TempEsdStr = Left(ESDStr1, Len(ESDStr1) - 6)     '临时ESD1的值
                 GetCRCstr = Mid(ESDStr1, Len(TempEsdStr) + 1, 4) '截取的ESD1的CRC值
                 
                 CalcCRCstr = CRC(TempEsdStr)                     '计算的ESD1的CRC值
@@ -40026,7 +40040,7 @@ Private Sub WRTMServer_ConnectionRequest(ByVal requestID As Long)
 70         Call SocketLog("RTM---连接成功", 1)
 80         Call RTM_SendOfflineMessage                  '20220112  陈增亮  新增重连时断线信息发送
 90         Debug.Print WRTMServer.RemoteHostIP & "连接" & WRTMServer.RemotePort
-100        Debug.Print time
+100        Debug.Print Time
 110   Exit Sub
 error:
 120       Call SocketLog("Error---WRTMServer_ConnectionRequest,错误号：" & Err.Number & "  错误信息：" & Err.Description & " 错误行号：" & Erl)
@@ -40107,7 +40121,7 @@ On Error GoTo error
      End If
      Me.WSECSServer.Accept requestID
      Debug.Print WSECSServer.RemoteHostIP & "连接" & WSECSServer.RemotePort
-     Debug.Print time
+     Debug.Print Time
      Call WriteDebugInfoToLog("SECS/GEM---" & WSECSServer.RemoteHostIP & "连接" & WSECSServer.RemotePort, StSECSParam.SECSlogNum)
      frmAutoRun.SecMode.Caption = "SECS-OffLine"
 Exit Sub
@@ -40156,7 +40170,7 @@ Private Sub WSVision_DataArrival(Index As Integer, ByVal bytesTotal As Long)
     If Me.WSVision(Index).State = 7 Then
         Dim temp As String
         Me.WSVision(Index).GetData temp
-        If left(temp, 5) <> "$ACK$" Then
+        If Left(temp, 5) <> "$ACK$" Then
             'StQRCode.QRCodeCheckResult(Index + 1) = ""
             StQRCode.QRCodeCheckResult(Index + 1) = temp
             Call RTCVisionLog("接收相机" & Index + 1 & " Vision数据", 0, temp)
@@ -40174,10 +40188,10 @@ Public Sub AddQRCode(station As String, QRCode As String)
     If QRCodeList.ListItems.count >= 5 Then
         QRCodeList.ListItems.Remove 1
     End If
-    QRCodeList.ListItems.Add , , Format(time, "HH:mm:ss")
+    QRCodeList.ListItems.Add , , Format(Time, "HH:mm:ss")
     QRCodeList.ListItems(QRCodeList.ListItems.count).SubItems(1) = station
     QRCodeList.ListItems(QRCodeList.ListItems.count).SubItems(2) = QRCode
-    If left(QRCode, 5) = "ERROR" Then
+    If Left(QRCode, 5) = "ERROR" Then
         QRCodeList.ListItems(QRCodeList.ListItems.count).ForeColor = vbRed
         QRCodeList.ListItems(QRCodeList.ListItems.count).ListSubItems(1).ForeColor = vbRed
         QRCodeList.ListItems(QRCodeList.ListItems.count).ListSubItems(2).ForeColor = vbRed
@@ -40256,7 +40270,7 @@ On Error GoTo error
             Else
                 StRTMParam.TCPStr() = Split(SocketData, Chr(10))
                 For i = 0 To (UBound(StRTMParam.TCPStr()) - 1)
-                    Debug.Print time & "获取HOST信息："; SocketData
+                    Debug.Print Time & "获取HOST信息："; SocketData
                     Call WriteRTMLog("RTM>>>Handler $ Index:" & Index & " $ Get To:" & SocketData)  '2021/9/4 林兴 优化Log 记录主机编号
                     StRTMParam.RTMindex = Index
                     Call HostToEQP(StRTMParam.TCPStr(i))
@@ -40273,7 +40287,7 @@ On Error GoTo error
 '                        Dim S As Boolean
                     Debug.Print InStr(1, StRTMParam.TCPStr(0), Chr(10))
                     Debug.Print "获取StSocket信息："; StRTMParam.TCPStr(i)
-                    Debug.Print time
+                    Debug.Print Time
                     Call WriteRTMLog("RTM>>>Handler$ Index:" & Index & " $ Get To:" & StRTMParam.TCPStr(i))     '2021/9/4 林兴 优化Log 记录主机编号
                     Call HostToEQP(StRTMParam.TCPStr(i))
                     StRTMParam.TCPStr(i) = ""
@@ -40495,10 +40509,10 @@ Private Sub btnCheckIn_Click(Index As Integer)
 120               FileName = PathStr & "UnloadBrcode3.ini"
 130           End If
 140       End If
-150       If dir(PathStr, vbDirectory) = "" Then
+150       If Dir(PathStr, vbDirectory) = "" Then
 160           MkDir PathStr
 170       End If
-180       If dir(FileName, vbDirectory) = "" Then
+180       If Dir(FileName, vbDirectory) = "" Then
 190           Open FileName For Output As #FileNum
 200           Print #FileNum, ""
 210           Close #FileNum
@@ -40699,7 +40713,7 @@ Private Sub WFTPServer_ConnectionRequest(ByVal requestID As Long)
 40         End If
 50         Me.WFTPServer.Accept requestID
 60         Debug.Print WFTPServer.RemoteHostIP & "连接" & WFTPServer.RemotePort
-70         Debug.Print time
+70         Debug.Print Time
            Call SaveFtplog("FTP---" & WFTPServer.RemoteHostIP & "连接" & WFTPServer.RemotePort)
 80    Exit Sub
 error:
@@ -40777,13 +40791,13 @@ Private Sub Pdown_Click()   '20231212 许志尧 新增换页功能
     Dim i As Integer
 20        For i = 1 To Me.lbTemp.UBound
 30      If i <= 24 And Me.lbTemp(i).Visible = True Then
-40          Me.lbTemp(i).top = Me.lbTemp(i).top + 4380
-50          Me.lbTemperatureNow(i).top = Me.lbTemperatureNow(i).top + 4380
+40          Me.lbTemp(i).Top = Me.lbTemp(i).Top + 4380
+50          Me.lbTemperatureNow(i).Top = Me.lbTemperatureNow(i).Top + 4380
 60          Me.lbTemp(i).Visible = False
 70          Me.lbTemperatureNow(i).Visible = False
 80      ElseIf i > 24 And Me.lbTemp(i).Visible = False Then
-90          Me.lbTemp(i).top = Me.lbTemp(i).top - 4380
-100         Me.lbTemperatureNow(i).top = Me.lbTemperatureNow(i).top - 4380
+90          Me.lbTemp(i).Top = Me.lbTemp(i).Top - 4380
+100         Me.lbTemperatureNow(i).Top = Me.lbTemperatureNow(i).Top - 4380
 110         Me.lbTemp(i).Visible = True
 120         Me.lbTemperatureNow(i).Visible = True
 130     End If
@@ -40799,13 +40813,13 @@ Private Sub Pup_Click() '20231212 许志尧 新增换页功能
     Dim i As Integer
 20        For i = 1 To Me.lbTemp.UBound
 30      If i <= 24 And Me.lbTemp(i).Visible = False Then
-40          Me.lbTemp(i).top = Me.lbTemp(i).top - 4380
-50          Me.lbTemperatureNow(i).top = Me.lbTemperatureNow(i).top - 4380
+40          Me.lbTemp(i).Top = Me.lbTemp(i).Top - 4380
+50          Me.lbTemperatureNow(i).Top = Me.lbTemperatureNow(i).Top - 4380
 60          Me.lbTemp(i).Visible = True
 70          Me.lbTemperatureNow(i).Visible = True
 80      ElseIf i > 24 And Me.lbTemp(i).Visible = True Then
-90          Me.lbTemp(i).top = Me.lbTemp(i).top + 4380
-100         Me.lbTemperatureNow(i).top = Me.lbTemperatureNow(i).top + 4380
+90          Me.lbTemp(i).Top = Me.lbTemp(i).Top + 4380
+100         Me.lbTemperatureNow(i).Top = Me.lbTemperatureNow(i).Top + 4380
 110         Me.lbTemp(i).Visible = False
 120         Me.lbTemperatureNow(i).Visible = False
 130     End If
@@ -40883,9 +40897,9 @@ Public Sub InitAutoFormBinToT_32()
             Me.txtTrayBin(i).Height = 750
         Next
         For i = 3 To 5
-            Me.lbTrayBin(i).top = 2300
+            Me.lbTrayBin(i).Top = 2300
             Me.lbTrayBin(i).Height = 240
-            Me.txtTrayBin(i).top = 2640
+            Me.txtTrayBin(i).Top = 2640
             Me.txtTrayBin(i).Height = 600
         Next
         For i = 7 To 9
@@ -40944,9 +40958,9 @@ Public Sub InitAutoFormBinToT_32()
         Next
         For i = 3 To 5
             Me.lbTrayBin(i).Caption = "Fix" & i - 2
-            Me.lbTrayBin(i).top = 2550
+            Me.lbTrayBin(i).Top = 2550
             Me.lbTrayBin(i).Height = 240
-            Me.txtTrayBin(i).top = 2880
+            Me.txtTrayBin(i).Top = 2880
             Me.txtTrayBin(i).Height = 975
             Me.txtTrayBin(i).Font.Size = 11
             If i = 3 Then
@@ -41176,9 +41190,9 @@ Public Sub InitAutoFormSoftBinToT()
 560           Next
 570           For i = 3 To 5
 580               Me.lbTrayBin(i).Caption = "Fix" & i - 2
-590               Me.lbTrayBin(i).top = 2550
+590               Me.lbTrayBin(i).Top = 2550
 600               Me.lbTrayBin(i).Height = 240
-610               Me.txtTrayBin(i).top = 2880
+610               Me.txtTrayBin(i).Top = 2880
 620               Me.txtTrayBin(i).Height = 975
 630               Me.txtTrayBin(i).Font.Size = 11
 640               If i = 3 Then
